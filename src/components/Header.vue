@@ -9,8 +9,12 @@
         <div class="store">STORE</div>
         <div class="faq">FAQ</div>
         <div class="magagine">MAGAGINE</div>
-        <div class="instagram">INSTAGRAM</div>
-        <div class="twitter">TWITTER</div>
+        <div class="instagram">
+          <img src="@/assets/sns_instagram.png" alt="instagtram" class="sns-icon">
+        </div>
+        <div class="twitter">
+           <img src="@/assets/sns_twitter.png" alt="twitter" class="sns-icon">
+        </div>
       </div>
       <div class="header-right-block">
         <div class="hr-diagnosis-button">
