@@ -1,0 +1,77 @@
+$link-margin: 1rem;
+
+.header-container {
+  width: 100%;
+  height: 90px;
+  position: fixed;
+  background-color: white;
+  display: flex;
+  z-index: 1;
+}
+
+
+//logo
+.header-container > .header-logo-block {
+  width: 10%;
+  height: 50px;
+  margin: 1.5rem 3.5rem;
+}
+
+.header-container > .header-logo-block > .image {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  
+}
+
+
+//left
+.header-left-block {
+  width: 60%;
+  height: 50px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.header-left-block > .about,
+.store,
+.faq,
+.magagine,
+.instagram,
+.twitter {
+  margin: 2rem 1rem;
+  //border分の幅
+  font-weight: 500;
+}
+
+
+//right
+.header-right-block {
+  width: 30%;
+  height: 50px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.header-right-block > .login-button {
+  width: 15%;
+  background-color: white;
+  color: black;
+  border: 1px solid black;
+  font-size: 1rem;
+  font-weight: bold;
+  border-radius: 2rem;
+  margin:  1.5rem 1rem;
+  padding: 0.25rem 1rem;
+  
+}
+.header-right-block > .hr-diagnosis-button {
+  width: 40%;
+  background-color: black;
+  color: white ;
+  border: 1px solid black;
+  font-size: 1rem;
+  font-weight: bold;
+  border-radius: 2rem;
+  margin:  1.5rem 1rem;
+  padding: 0.25rem 1rem;
+}

@@ -1,0 +1,91 @@
+.price-container {
+  width: 100%;
+  height: auto;
+  background-color: #f1f1f1;
+  padding: 0 0 3% 0;
+}
+
+// discription
+.price-container > .description-block {
+  padding: 5% 0 3%;
+  background-color: #f1f1f1;
+}
+.price-container > .description-block > .title-box {
+  width: 15%;
+  margin: 0 auto;
+}
+
+.price-container > .description-block > .title-box > .title {
+  font-size: 12%;
+  font-weight: bold;
+}
+
+.price-container > .description-block > .title-box > .hr {
+  width: 100%;
+}
+
+.price-container > .description-block > .main-message {
+  font-weight: bold;
+  font-size: 25px;
+}
+
+//price-card
+.price-container > .price-card-container {
+  width: 90%;
+  height: auto;
+  margin: 0 auto;
+  display: flex;
+  background-color: #f1f1f1;
+}
+
+// campaign
+.price-container > .custom-price {
+  font-size: 35px;
+  font-weight: bold;
+}
+.price-container > .four-cps {
+  width: 55%;
+  margin: 0 auto;
+  font-size: 15px;
+  font-weight: bold;
+  padding: 2% 0;
+}
+.cp-block {
+  width: 55%;
+  height: auto;
+  margin: 0 auto;
+  display: flex;
+  background-color: white;
+}
+.cp-block > .cp-box {
+  width: 20%;
+  margin: 3% auto;
+  background-color: white;
+}
+.cp-block > .cp-box > .cp-title {
+  font-size: 15px;
+  font-weight: bold;
+  background-color: #f1f1f1;
+  padding: 3% 0;
+}
+
+.cp-block > .cp-box > .cp-message {
+  font-size: 15px;
+  font-weight: bold;
+  padding: 5% 0;
+}
+.cp-diagnosis-button-container {
+  width: 55%;
+  margin: 0 auto;
+}
+.cp-diagnosis-button {
+  width: 100%;
+  background-color: black;
+  color: white;
+  border: 1px solid black;
+  font-size: 1rem;
+  font-weight: bold;
+  border-radius: 2rem;
+  margin: 1rem 0;
+  padding: 3% 0;
+}

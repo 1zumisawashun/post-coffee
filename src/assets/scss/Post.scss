@@ -1,0 +1,38 @@
+.post-container {
+  width: 60%;
+  height: auto;
+  margin: 10% auto;
+}
+.post-container > .title-box {
+  width: 20%;
+  margin: 0 auto;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+//perfect-scrollbar
+.ps {
+  height: 400px;
+  border: 1px solid white;
+}
+.post-block {
+  height: auto;
+  display: flex;
+  margin: 3%;
+  padding: 3%;
+  border-bottom: 1px solid #f1f1f1;
+}
+
+.post-block > .post {
+  width: 70%;
+  margin: 0 auto;
+  font-size: 14px;
+  font-weight: bold;
+}
+.post-block > .date {
+  width: 15%;
+  margin: 0 auto;
+  font-size: 14px;
+  font-weight: bold;
+  color: gray;
+}

@@ -1,0 +1,121 @@
+.product-container {
+  width: 100%;
+  height: auto;
+}
+.product-container > .product-block {
+  width: 80%;
+  height: auto;
+  margin: 5% auto;
+  border-radius: 30px;
+  border: solid;
+  border-color: black;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 5% 2.5%;
+}
+.product-container > .product-block > .product-left-block {
+  width: 58%;
+  height: auto;
+}
+.product-container > .product-block > .product-right-block {
+  width: 40%;
+  height: auto;
+  margin: 0 0 0 2%;
+}
+.product-left-block > .postcoffeebox {
+  width: 110%;
+  height: auto;
+  position: relative;
+  left: -15%;
+  top: 0;
+}
+.product-right-block > .title-box {
+  width: 40%;
+  height: auto;
+  margin: 5% 0;
+}
+.product-right-block > .title-box > .title {
+  font-size: 12px;
+}
+.product-right-block > .title-box > .hr {
+  width: 100%;
+}
+
+.product-right-block > .main-message {
+  width: 100%;
+  font-size: 25px;
+  font-weight: bold;
+  text-align: left;
+  margin: 5% 0;
+}
+.product-right-block > .sub-message {
+  width: 100%;
+  font-size: 15px;
+  font-weight: bold;
+  text-align: left;
+  margin: 5% 0;
+}
+
+.product-right-block > .feature-block {
+  width: 100%;
+  height: auto;
+  background-color: #f1f1f1;
+  padding: 1%;
+  text-align: left;
+  margin: 5% 0;
+}
+.product-right-block > .feature-block >.first-feature,.second-feature,.third-feature {
+  margin: 2%;
+}
+
+.product-right-block > .price-block {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 5% 0;
+}
+.product-right-block > .price-block > .ship {
+  width: 18%;
+  height: 25px;
+  border: solid;
+  border-color: black;
+  padding: 1%;
+}
+.product-right-block > .price-block > .price {
+  width: 50%;
+  height: 50px;
+  font-weight: bold;
+  font-size: 55px;
+}
+.product-right-block > .price-block > .tax {
+  width: 28%;
+  height: auto;
+  font-size: 15px;
+}
+.price-diagnosis-button{
+  width: 100%;
+  background-color: black;
+  color: white ;
+  border: 1px solid black;
+  font-size: 20px;
+  font-weight: bold;
+  border-radius: 2rem;
+  margin: 1rem;
+  padding:2% 0;
+}
+.bg-wrapper{
+  width: 100%;
+  height: auto;
+  background-color: #f1f1f1;
+}
+.information-container{
+width: 90%;
+margin: 0 auto;
+height: auto;
+padding: 5% 0;
+display: flex;
+}
+
+
+

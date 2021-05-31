@@ -1,0 +1,47 @@
+.right-image-card-container{
+  width: 90%;
+height: auto;
+margin: 5% auto;
+display: flex;
+flex-wrap: wrap;
+
+}
+
+.right-image-card-container > .image-block{
+  width: 45%;
+  height: auto;
+  margin: 0 auto;
+
+}
+.right-image-card-container > .info-block{
+  width: 45%;
+  height: auto;
+  margin: 10% auto;
+  
+}
+.right-image-card-container > .info-block >.title-box{
+width: 30%;
+height: auto;
+margin: 5% 0 ;
+}
+
+.right-image-card-container > .info-block >.title-box>.title{
+   font-size: 13px;
+}
+.right-image-card-container > .info-block >.title-box >.hr{
+   width: 100%;
+}
+
+.right-image-card-container > .info-block >.main-message{
+   font-size: 25px;
+   font-weight: bold;
+   margin: 5% 0 ;
+}
+
+.right-image-card-container > .info-block >.sub-message{
+   font-size: 15px;
+   margin: 5% 0 ;
+}
+
+
+

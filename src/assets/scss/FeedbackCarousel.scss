@@ -1,0 +1,51 @@
+.feedback-carousel-container{
+  width: 90%;
+  margin: 5% auto;
+  height: auto;
+  background-color: white;
+}
+.feedback-carousel-container>.topic-carousel-title{
+  font-family: initial;
+  font-size: 30px;
+  margin: 3% 0;
+}
+.VueCarousel-navigation-next,
+.VueCarousel-navigation-prev
+{
+  font-size:1.5rem;
+ font-weight: bold;
+  
+}
+
+.card-container{
+  border: 1px solid #f1f1f1;
+  padding: 8% 0;
+  margin: 0 6%;
+  border-radius: 1rem;
+}
+
+.user-block > .user-info{
+  width: 250px;
+  margin: 0 auto;
+  
+  display: flex;
+
+}
+.user-block > .user-info > .name{
+  line-height: 50px;
+  margin: 0 10%;
+  color: gray;
+  font-size: 13px;
+  font-weight: bold;
+
+}
+.user-block > .user-info > .icon .user-icon{
+  border-radius: 50%;
+  margin: 0 20%;
+}
+.user-block > .message{
+  width: 250px;
+  margin: 0 auto;
+  font-size: 12px;
+  font-weight: bold;
+}
