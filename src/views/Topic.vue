@@ -2,10 +2,10 @@
   <div class="topic-container">
     <div class="message-block">
       <div class="sub-message-box">
-        <div class="message">今話題のサブスク</div>
+        <div class="message">{{message}}</div>
         <hr class="hr" />
       </div>
-      <div class="main-message">様々なテレビやメディアで話題になっています</div>
+      <div class="main-message whitespace" v-text="mainmessage"></div>
     </div>
     <!-- carousel -->
     <TopicCarousel></TopicCarousel>
@@ -22,12 +22,20 @@
 import "@/assets/scss/Topic.scss";
 import TopicCarousel from "@/components/TopicCarousel.vue";
 export default {
-  date() {
-    return {};
+  data() {
+    return {
+      message:"今話題のサブスク",
+      mainmessage:`様々なテレビやメディアで
+話題になっています`
+    };
   },
   components: {
     TopicCarousel,
   },
+  mounted(){
+    console.log(this.message);
+    console.log(this.mainmessage);
+  }
 };
 </script>
 

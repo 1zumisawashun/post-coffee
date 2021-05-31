@@ -7,31 +7,23 @@
       </div>
       <div class="product-right-block">
         <div class="title-box">
-          <div class="title">あなた専用のコーヒーボックス</div>
+          <div class="title">{{ title }}</div>
           <hr class="hr" />
         </div>
-        <div class="main-message">
-          すぐにコーヒーライフを始めるためのールインワンボックス
-          診断から好みにあったコーヒーが3種類
-        </div>
-        <div class="sub-message">
-          好みに合わせて、豆の挽き方や頻度、分量、シュガー、ミルク（クリープ）などカスタマイズ！
-        </div>
+        <div class="main-message whitespace" v-text="mainmessage"></div>
+        <div class="sub-message whitespace" v-text="submessage"></div>
         <div class="feature-block">
-          <div class="first-feature">マグとお湯を用意するだけでOK！</div>
-          <div class="second-feature">縛りなしでスキップも簡単！</div>
-          <div class="third-feature">ずっと、全国送料無料！</div>
+          <div class="first-feature"><img src="@/assets/icon_check.png" alt=""> {{ firstfeature }}</div>
+          <div class="second-feature"><img src="@/assets/icon_check.png" alt=""> {{ secondfeature }}</div>
+          <div class="third-feature"><img src="@/assets/icon_check.png" alt=""> {{ thirdfeature }}</div>
         </div>
         <div class="price-block">
-          <div class="ship">送料無料</div>
-          <div class="price">¥1,480~</div>
-          <div class="tax">（税込¥1,598~）</div>
+          <div class="ship">{{ ship }}</div>
+          <div class="price">{{ price }}</div>
+          <div class="tax">{{ tax }}</div>
         </div>
         <div class="price-diagnosis-button">
-        <a>
-          1分であなた好みのコーヒー診断 <br />
-          無料でコーヒーを診断
-        </a>
+          <a class="whitespace" v-text="pricediagnosisbutton"> </a>
         </div>
       </div>
     </div>
@@ -39,14 +31,11 @@
     <FeedbackCarousel></FeedbackCarousel>
     <!-- third-section -->
     <div class="bg-wrapper">
-    <div class="information-container">
-    <div
-      v-for="(information, index) in informations"
-      :key="index"
-    >
-      <Information :information="information"></Information>
-    </div>
-    </div>
+      <div class="information-container">
+        <div v-for="(information, index) in informations" :key="index">
+          <Information :information="information"></Information>
+        </div>
+      </div>
     </div>
   </div>
 </template>
@@ -65,6 +54,18 @@ export default {
   props: [""],
   data() {
     return {
+      title: "あなた専用のコーヒーボックス",
+      mainmessage: `すぐにコーヒーライフを始めるためのオールインワンボックス
+診断から好みにあったコーヒーが3種類`,
+      submessage: `好みに合わせて、豆の挽き方や頻度、分量、シュガー、ミルク（クリープ）などカスタマイズ！`,
+      firstfeature: "マグとお湯を用意するだけでOK！",
+      secondfeature: "縛りなしでスキップも簡単！",
+      thirdfeature: "ずっと、全国送料無料！",
+      ship: "送料無料",
+      price: "¥1,480~",
+      tax: "（税込¥1,598~）",
+      pricediagnosisbutton: `1分であなた好みのコーヒー診断
+無料でコーヒーを診断`,
       informations: [
         {
           image: require("@/assets/icon_feauter1.png"),

@@ -66,13 +66,14 @@
 }
 .product-right-block > .feature-block >.first-feature,.second-feature,.third-feature {
   margin: 2%;
+  font-size: 15px;
+  font-weight: bold;
 }
 
 .product-right-block > .price-block {
   width: 100%;
-  height: auto;
+  height: 70px;
   display: flex;
-  flex-wrap: wrap;
   margin: 5% 0;
 }
 .product-right-block > .price-block > .ship {
@@ -81,17 +82,22 @@
   border: solid;
   border-color: black;
   padding: 1%;
+  align-items: flex-end;
+  margin: 3.5% 0 0 ;
 }
 .product-right-block > .price-block > .price {
   width: 50%;
   height: 50px;
   font-weight: bold;
-  font-size: 55px;
+  font-size: 50px;
+  align-items: flex-end;
 }
 .product-right-block > .price-block > .tax {
   width: 28%;
   height: auto;
   font-size: 15px;
+  align-items: flex-end;
+  margin: 6% 0 0 ;
 }
 .price-diagnosis-button{
   width: 100%;

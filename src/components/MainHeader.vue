@@ -4,9 +4,10 @@
 
     <div class="message-block">
       <div class="sub-message">
-        コーヒー診断であなたにぴったりのコーヒーが毎月届く
+        {{ submessage }}
       </div>
-      <div class="main-message">コーヒーの定期便パーソナライズコーヒーBOX</div>
+      <div class="main-message whitespace" v-text="mainmessage"></div>
+
       <div class="mh-diagnosis-button-container">
         <div class="mh-diagnosis-button">
           <DiagnosisButton></DiagnosisButton>
@@ -23,8 +24,16 @@ export default {
   components: {
     DiagnosisButton,
   },
+  data() {
+    return {
+      submessage: "コーヒー診断であなたにぴったりのコーヒーが毎月届く",
+      mainmessage: `コーヒーの定期便
+パーソナライズコーヒーBOX`,
+    };
+  },
 };
 </script>
 
 <style scoped>
+
 </style>

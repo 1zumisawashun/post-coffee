@@ -8,12 +8,14 @@
       :speed="500"
     >
       <slide v-for="carousel in carousels" :key="carousel.id">
-        <div class="carousel-main-message">
-          {{ carousel.mainmessage }}
-        </div>
-        <div class="carousel-sub-message">
-          {{ carousel.submessage }}
-        </div>
+        <div
+          class="carousel-main-message whitespace"
+          v-text="carousel.mainmessage"
+        ></div>
+        <div
+          class="carousel-sub-message whitespace"
+          v-text="carousel.submessage"
+        ></div>
         <div class="line"></div>
         <img :src="carousel.image" :alt="carousel.name" />
       </slide>
@@ -29,8 +31,8 @@ export default {
       carousels: [
         {
           mainmessage: "「話題のコーヒーサブスクPostCoffeeを体験」",
-          submessage:
-            "驚いたのは、自分が想像以上に浅煎り好きだとわかったこと！コーヒー観が変わる貴重な体験ができました。",
+          submessage: `驚いたのは、自分が想像以上に浅煎り好きだとわかったこと！
+コーヒー観が変わる貴重な体験ができました。`,
           image: "https://placehold.jp/200x100.png",
           name: "lifehacker",
         },
@@ -57,8 +59,8 @@ export default {
           name: "王様のブランチ",
         },
         {
-          mainmessage:
-            "「月イチで3タイプ届くコーヒー豆のチョイスが、マニアックで面白すぎる」",
+          mainmessage: `「月イチで3タイプ届くコーヒー豆のチョイスが、
+マニアックで面白すぎる」`,
           submessage:
             "味もしっかりしていますし、焙煎も新鮮。いろんな種類を飲めて飽きないのはかなり良いです。",
           image: "https://placehold.jp/200x100.png",
