@@ -1,0 +1,26 @@
+
+  .feedback-user-block {
+
+  .userinfo {
+    width: 250px;
+    margin: 0 auto;
+    display: flex;
+  }
+   .userinfo > .name {
+    line-height: 50px;
+    margin: 0 10%;
+    color: gray;
+    font-size: 13px;
+    font-weight: bold;
+  }
+   .userinfo > .iconbox >.usericon {
+    border-radius: 50%;
+    margin: 0 20%;
+  }
+   .message {
+    width: 250px;
+    margin: 0 auto;
+    font-size: 12px;
+    font-weight: bold;
+  }
+}

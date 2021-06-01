@@ -1,12 +1,14 @@
 <template>
-  <div class="image-container">
-    <img src="@/assets/postcoffeeheader.jpeg" alt="" class="image" />
+  <div class="main-header-container">
+    <img src="@/assets/images/postcoffeeheader.jpeg" alt="" class="image" />
 
     <div class="message-block">
       <div class="sub-message">
         {{ submessage }}
       </div>
-      <div class="main-message whitespace" v-text="mainmessage"></div>
+      <div class="main-message whitespace">
+        {{mainmessage}}
+      </div>
 
       <div class="mh-diagnosis-button-container">
         <div class="mh-diagnosis-button">
@@ -18,7 +20,7 @@
 </template>
 
 <script>
-import "@/assets/scss/MainHeader.scss";
+import "@/assets/scss/main-header-container.scss";
 import DiagnosisButton from "@/components/DiagnosisButton.vue";
 export default {
   components: {

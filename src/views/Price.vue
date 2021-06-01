@@ -1,11 +1,11 @@
 <template>
   <div class="price-container">
-    <div class="description-block">
-      <div class="title-box">
+    <div class="price-description-block">
+      <div class="titlebox">
         <div class="title">様々なコーヒーライフスタイルに</div>
         <hr class="hr" />
       </div>
-      <div class="main-message">例えばこんなカスタマイズ</div>
+      <div class="mainmessage">例えばこんなカスタマイズ</div>
     </div>
 
     <div class="price-card-container">
@@ -14,43 +14,45 @@
       </div>
     </div>
 
-    <!-- <div class="cp-bg-wrapper"> -->
-    <div class="description-block">
-      <div class="title-box">
+    <div class="price-description-block">
+      <div class="titlebox">
         <div class="title">すぐに始められるコーヒーライフ</div>
         <hr class="hr" />
       </div>
-      <div class="main-message">あなたのカスタマイズで始めよう！</div>
+      <div class="mainmessage">あなたのカスタマイズで始めよう！</div>
     </div>
-    <div class="custom-price">月々¥1,480~（税込¥1,598~）</div>
-    <div class="four-cps">
-      <hr />
-      <div class="cps">4つの特典</div>
-      <hr />
-    </div>
-    <div class="cp-block">
-      <div class="cp-box" v-for="cp in cps" :key="cp.id">
-        <div class="cp-title">{{ cp.title }}</div>
-        <div class="cp-message">{{ cp.message }}</div>
+
+    <div class="cp-container">
+      <div class="cpprice">月々¥1,480~（税込¥1,598~）</div>
+      <div class="fourcps">
+        <hr />
+        <div class="cps">4つの特典</div>
+        <hr />
+      </div>
+      <div class="cp-block">
+        <div class="cpbox" v-for="cp in cps" :key="cp.id">
+          <div class="cptitle">{{ cp.title }}</div>
+          <div class="cpmessage">{{ cp.message }}</div>
+        </div>
+      </div>
+      <div class="cp-diagnosis-button-container">
+        <div class="cp-diagnosis-button">
+          <a>無料でコーヒー診断をする</a>
+        </div>
       </div>
     </div>
-    <div class="cp-diagnosis-button-container">
-      <div class="cp-diagnosis-button">
-        <a>無料でコーヒー診断をする</a>
-      </div>
-    </div>
-    <!-- </div> -->
   </div>
 </template>
 
 <script>
 import PriceCard from "@/components/PriceCard.vue";
-//import DiagnosisButton from "@/components/DiagnosisButton.vue";
-import "@/assets/scss/Price.scss";
+import "@/assets/scss/price-container.scss";
+import "@/assets/scss/price-description-block.scss";
+import "@/assets/scss/cp-container.scss";
+
 export default {
   components: {
     PriceCard,
-    //DiagnosisButton,
   },
   data() {
     return {

@@ -2,7 +2,7 @@
   <div>
     <div class="header-container">
       <div class="header-logo-block">
-        <img src="@/assets/postcoffeelogo.png" alt="" class="image">
+        <img src="@/assets/images/postcoffeelogo.png" alt="" class="image">
       </div>
       <div class="header-left-block">
         <div class="about">ABOUT</div>
@@ -10,10 +10,10 @@
         <div class="faq">FAQ</div>
         <div class="magagine">MAGAGINE</div>
         <div class="instagram">
-          <img src="@/assets/sns_instagram.png" alt="instagtram" class="sns-icon">
+          <img src="@/assets/images/sns_instagram.png" alt="instagtram" class="sns-icon">
         </div>
         <div class="twitter">
-           <img src="@/assets/sns_twitter.png" alt="twitter" class="sns-icon">
+           <img src="@/assets/images/sns_twitter.png" alt="twitter" class="sns-icon">
         </div>
       </div>
       <div class="header-right-block">
@@ -29,7 +29,7 @@
 <script>
 
 import DiagnosisButton from "@/components/DiagnosisButton.vue"
-import "@/assets/scss/Header.scss"
+import "@/assets/scss/header-container.scss"
 export default {
 components:{
   DiagnosisButton

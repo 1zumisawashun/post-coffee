@@ -3,19 +3,23 @@
     <!-- first-section -->
     <div class="product-block">
       <div class="product-left-block">
-        <img src="@/assets/postcoffee_box.png" alt="" class="postcoffeebox" />
+        <img src="@/assets/images/postcoffee_box.png" alt="" class="postcoffeebox" />
       </div>
       <div class="product-right-block">
         <div class="title-box">
           <div class="title">{{ title }}</div>
           <hr class="hr" />
         </div>
-        <div class="main-message whitespace" v-text="mainmessage"></div>
-        <div class="sub-message whitespace" v-text="submessage"></div>
+        <div class="main-message" >
+          {{mainmessage}}
+        </div>
+        <div class="sub-message" >
+          {{submessage}}
+        </div>
         <div class="feature-block">
-          <div class="first-feature"><img src="@/assets/icon_check.png" alt=""> {{ firstfeature }}</div>
-          <div class="second-feature"><img src="@/assets/icon_check.png" alt=""> {{ secondfeature }}</div>
-          <div class="third-feature"><img src="@/assets/icon_check.png" alt=""> {{ thirdfeature }}</div>
+          <div class="first-feature"><img src="@/assets/images/icon_check.png" alt=""> {{ firstfeature }}</div>
+          <div class="second-feature"><img src="@/assets/images/icon_check.png" alt=""> {{ secondfeature }}</div>
+          <div class="third-feature"><img src="@/assets/images/icon_check.png" alt=""> {{ thirdfeature }}</div>
         </div>
         <div class="price-block">
           <div class="ship">{{ ship }}</div>
@@ -23,14 +27,14 @@
           <div class="tax">{{ tax }}</div>
         </div>
         <div class="price-diagnosis-button">
-          <a class="whitespace" v-text="pricediagnosisbutton"> </a>
+          <a>{{pricediagnosisbutton}} </a>
         </div>
       </div>
     </div>
     <!-- second-section -->
     <FeedbackCarousel></FeedbackCarousel>
     <!-- third-section -->
-    <div class="bg-wrapper">
+    <div class="information-wrapper">
       <div class="information-container">
         <div v-for="(information, index) in informations" :key="index">
           <Information :information="information"></Information>
@@ -41,13 +45,12 @@
 </template>
 
 <script>
-import "@/assets/scss/Product.scss";
-// import DiagnosisButton from "@/components/DiagnosisButton.vue"
+import "@/assets/scss/product-container.scss";
+import "@/assets/scss/information-wrapper.scss";
 import Information from "../components/Information.vue";
 import FeedbackCarousel from "../components/FeedbackCarousel.vue";
 export default {
   components: {
-    //DiagnosisButton,
     Information,
     FeedbackCarousel,
   },
@@ -55,7 +58,7 @@ export default {
   data() {
     return {
       title: "あなた専用のコーヒーボックス",
-      mainmessage: `すぐにコーヒーライフを始めるためのオールインワンボックス
+      mainmessage:`すぐにコーヒーライフを始めるためのオールインワンボックス
 診断から好みにあったコーヒーが3種類`,
       submessage: `好みに合わせて、豆の挽き方や頻度、分量、シュガー、ミルク（クリープ）などカスタマイズ！`,
       firstfeature: "マグとお湯を用意するだけでOK！",
@@ -68,7 +71,7 @@ export default {
 無料でコーヒーを診断`,
       informations: [
         {
-          image: require("@/assets/icon_feauter1.png"),
+          image: require("@/assets/images/icon_feauter1.png"),
           // srcをバインドさせる時はrequireさせなくてはいけない
           title: "Take the Quiz.",
           mainmessage: "コーヒーを診断する",
@@ -76,21 +79,21 @@ export default {
             "趣味嗜好に関する簡単な質問に答えましょう。コーヒーの知識がなくても大丈夫。",
         },
         {
-          image: require("@/assets/icon_feauter2.png"),
+          image: require("@/assets/images/icon_feauter2.png"),
           title: "Customazing for you.",
           mainmessage: "あなた専用にカスタマイズ",
           submessage:
             "約15万通りからあなたに合ったコーヒー、淹れ方などを導き出します。",
         },
         {
-          image: require("@/assets/icon_feauter3.png"),
+          image: require("@/assets/images/icon_feauter3.png"),
           title: "Get the Coffee Box.",
           mainmessage: "美味しいコーヒーが届く",
           submessage:
             "あなた専用にカスタマイズされたコーヒーBOXが届きます。コーヒージャーニーの始まりです。",
         },
         {
-          image: require("@/assets/icon_feauter4.png"),
+          image: require("@/assets/images/icon_feauter4.png"),
           title: "Let's give them feedback.",
           mainmessage: "フィードバックしよう",
           submessage:

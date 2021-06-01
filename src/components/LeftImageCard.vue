@@ -17,7 +17,7 @@
 
 <script>
 
-import "@/assets/scss/LeftImageCard.scss";
+import "@/assets/scss/left-image-card-container.scss";
 export default {
   data(){
     return{

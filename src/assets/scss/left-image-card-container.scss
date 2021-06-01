@@ -4,42 +4,42 @@ height: auto;
 margin: 5% auto;
 display: flex;
 flex-wrap: wrap;
-}
 
-.left-image-card-container > .image-block{
+ .image-block{
   width: 45%;
   height: auto;
   margin: 0 auto;
 
 }
-.left-image-card-container > .info-block{
+.info-block{
   width: 45%;
   height: auto;
   margin: 10% auto;
   
 }
-.left-image-card-container > .info-block >.title-box{
+ .info-block >.title-box{
 width: 30%;
 height: auto;
 margin: 5% 0 ;
 }
 
-.left-image-card-container > .info-block >.title-box>.title{
+ .info-block >.title-box>.title{
    font-size: 13px;
 }
-.left-image-card-container > .info-block >.title-box >.hr{
+ .info-block >.title-box >.hr{
    width: 100%;
 }
 
-.left-image-card-container > .info-block >.main-message{
+.info-block >.main-message{
    font-size: 25px;
    font-weight: bold;
    margin: 5% 0 ;
 }
 
-.left-image-card-container > .info-block >.sub-message{
+.info-block >.sub-message{
    font-size: 15px;
    margin: 5% 0 ;
+}
 }
 
 

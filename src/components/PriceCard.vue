@@ -31,7 +31,7 @@
 </template>
 
 <script>
-import "@/assets/scss/PriceCard.scss";
+import "@/assets/scss/price-card-block.scss";
 export default {
   data() {
     return {};

@@ -1,17 +1,17 @@
 <template>
   <div class="partner-container">
-    <div class="partner-roaster-logo">
-      <img src="@/assets/roasterpartnerlogo.png" alt="" class="logo" />
+    <div class="logobox">
+      <img src="@/assets/images/roasterpartnerlogo.png" alt="" class="logo" />
     </div>
-    <div class="main-message">{{ mainmessage }}</div>
-    <div class="sub-message">{{ submessage }}</div>
+    <div class="mainmessage">{{ mainmessage }}</div>
+    <div class="submessage">{{ submessage }}</div>
     <PartnerCard></PartnerCard>
   </div>
 </template>
 
 <script>
 import PartnerCard from "@/components/PartnerCard.vue";
-import "@/assets/scss/Partner.scss";
+import "@/assets/scss/partner-container.scss";
 export default {
   data() {
     return {

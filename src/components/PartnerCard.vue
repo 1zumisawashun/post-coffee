@@ -15,7 +15,7 @@
 </template>
 
 <script>
-import "@/assets/scss/PartnerCard.scss";
+import "@/assets/scss/partner-card-container.scss";
 export default {
   data() {
     return {

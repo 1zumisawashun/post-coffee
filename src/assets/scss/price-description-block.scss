@@ -1,0 +1,24 @@
+// discription
+.price-description-block {
+  padding: 5% 0 3%;
+  background-color: #f1f1f1;
+
+  .titlebox {
+    width: 15%;
+    margin: 0 auto;
+  }
+
+  .titlebox > .title {
+    font-size: 12%;
+    font-weight: bold;
+  }
+
+  .titlebox > .hr {
+    width: 100%;
+  }
+
+  .mainmessage {
+    font-weight: bold;
+    font-size: 25px;
+  }
+}

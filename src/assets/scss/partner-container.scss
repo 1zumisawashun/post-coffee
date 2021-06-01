@@ -2,27 +2,28 @@
   width: 100%;
   height: auto;
   color: white;
-  background-image: url("~@/assets/roaster_bg.jpeg");
+  background-image: url("~@/assets/images/roaster_bg.jpeg");
   /* relativeを指定しないと表示されない */
   position: relative;
   padding: 0 0 5% 0 ;
-  }
-  .partner-container > .partner-roaster-logo{
+ 
+ .logobox{
     padding: 3%;
   }
-  .partner-container > .partner-roaster-logo > .logo{
+   .logobox > .logo{
     width: 200px;
     height: auto;
     object-fit: cover;
   }
-  .partner-container > .main-message{
+  .mainmessage{
     width: 40%;
     margin: 1% auto;
   }
-  .partner-container > .sub-message{
+   .submessage{
     width: 50%;
     margin: 3% auto;
   }
+}
 
 
 

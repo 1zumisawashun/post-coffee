@@ -1,7 +1,7 @@
 <template>
   <div class="feedback-carousel-container">
     <!-- carousel -->
-    <div class="topic-carousel-title">Enjoy your lifestyle.</div>
+    <div class="title">Enjoy your lifestyle.</div>
     <carousel 
     :per-page="4" 
     :navigation-enabled="true"
@@ -9,17 +9,17 @@
     navigation-next-label=">"
     >
       <slide v-for="feedback in feedbacks" :key="feedback.id">
-        <div class="card-container">
-          <div class="picture-block">
+        <div class="feedback-card-container">
+          <div class="feedback-picture-block">
             <img :src="feedback.cardimage" alt="" />
           </div>
-          <div class="user-block">
-            <div class="user-info">
-              <div class="icon">
+          <div class="feedback-user-block">
+            <div class="userinfo">
+              <div class="iconbox">
                 <img
                   :src="feedback.usericon"
                   alt="lifehacker"
-                  class="user-icon"
+                  class="usericon"
                 />
               </div>
               <div class="name">{{ feedback.username }}</div>
@@ -35,7 +35,9 @@
 </template>
 
 <script>
-import "@/assets/scss/FeedbackCarousel.scss";
+import "@/assets/scss/feedback-carousel-container.scss";
+import "@/assets/scss/feedback-card-container.scss";
+import "@/assets/scss/feedback-user-block.scss";
 export default {
   data() {
     return {

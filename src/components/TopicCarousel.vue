@@ -1,5 +1,5 @@
 <template>
-  <div class="carousel-container">
+  <div class="topic-carousel-container">
     <carousel
       :per-page="1"
       :autoplay="true"
@@ -8,14 +8,12 @@
       :speed="500"
     >
       <slide v-for="carousel in carousels" :key="carousel.id">
-        <div
-          class="carousel-main-message whitespace"
-          v-text="carousel.mainmessage"
-        ></div>
-        <div
-          class="carousel-sub-message whitespace"
-          v-text="carousel.submessage"
-        ></div>
+        <div class="carousel-main-message">
+          {{ carousel.mainmessage }}
+        </div>
+        <div class="carousel-sub-message">
+          {{ carousel.submessage }}
+        </div>
         <div class="line"></div>
         <img :src="carousel.image" :alt="carousel.name" />
       </slide>
@@ -24,7 +22,7 @@
 </template>
 
 <script>
-import "@/assets/scss/TopicCarousel.scss";
+import "@/assets/scss/topic-carousel-container.scss";
 export default {
   data() {
     return {

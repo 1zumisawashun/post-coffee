@@ -1,8 +1,8 @@
 .product-container {
   width: 100%;
   height: auto;
-}
-.product-container > .product-block {
+
+  .product-block {
   width: 80%;
   height: auto;
   margin: 5% auto;
@@ -13,11 +13,11 @@
   flex-wrap: wrap;
   padding: 5% 2.5%;
 }
-.product-container > .product-block > .product-left-block {
+ .product-block > .product-left-block {
   width: 58%;
   height: auto;
 }
-.product-container > .product-block > .product-right-block {
+ .product-block > .product-right-block {
   width: 40%;
   height: auto;
   margin: 0 0 0 2%;
@@ -110,17 +110,6 @@
   margin: 1rem;
   padding:2% 0;
 }
-.bg-wrapper{
-  width: 100%;
-  height: auto;
-  background-color: #f1f1f1;
-}
-.information-container{
-width: 90%;
-margin: 0 auto;
-height: auto;
-padding: 5% 0;
-display: flex;
 }
 
 

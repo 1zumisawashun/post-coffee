@@ -5,7 +5,6 @@
 </template>
 
 <script>
-import "@/assets/scss/DiagnosisButton.scss"
 export default {
 
 }

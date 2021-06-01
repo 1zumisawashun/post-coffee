@@ -8,7 +8,7 @@
       <LeftImageCard :LeftImageCard="cards[2]"></LeftImageCard>
       <RightImageCard :RightImageCard="cards[3]"></RightImageCard>
     </div>
-    <div class="bg-wrapper">
+    <div class="information-wrapper">
       <div class="information-container">
         <div v-for="(information, index) in informations" :key="index">
           <Information :information="information"></Information>
@@ -19,7 +19,8 @@
 </template>
 
 <script>
-import "@/assets/scss/About.scss";
+import "@/assets/scss/about-container.scss";
+import "@/assets/scss/information-wrapper.scss";
 import Information from "@/components/Information.vue";
 import RightImageCard from "@/components/RightImageCard.vue";
 import LeftImageCard from "@/components/LeftImageCard.vue";
@@ -69,7 +70,7 @@ export default {
       ],
       informations: [
         {
-          image: require("@/assets/icon_feauter1.png"),
+          image: require("@/assets/images/icon_feauter1.png"),
           // srcをバインドさせる時はrequireさせなくてはいけない
           title: "",
           mainmessage: "焙煎したての最高品質のコーヒー豆",
@@ -77,21 +78,21 @@ export default {
             "最新の焙煎機、そして専属の焙煎士が毎日丁寧に焙煎をしています。お届けするコーヒーはいつも新鮮。",
         },
         {
-          image: require("@/assets/icon_feauter2.png"),
+          image: require("@/assets/images/icon_feauter2.png"),
           title: "",
           mainmessage: "ポストへ投函で届く",
           submessage:
             "不在票や再配達に悩むことはありません。あなたのコーヒーBOXをポストへお届けします。",
         },
         {
-          image: require("@/assets/icon_feauter4.png"),
+          image: require("@/assets/images/icon_feauter4.png"),
           title: "",
           mainmessage: "足りなくなったら追加注文",
           submessage:
             "コーヒー豆がなくなっても心配いりません。追加で注文ができ、pストへ届きます。",
         },
         {
-          image: require("@/assets/icon_feauter3.png"),
+          image: require("@/assets/images/icon_feauter3.png"),
           title: "",
           mainmessage: "全て送料無料",
           submessage:

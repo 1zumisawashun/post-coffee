@@ -3,19 +3,18 @@
   height: 750px;
   margin: 0% auto 10%;
   background-color: white;
-}
 
-.price-card-block > .image-block > .main-message-box {
+  .image-block > .main-message-box {
   width: 45%;
   margin:0 auto;
   padding: 5% 0 0;
 }
 
-.price-card-block > .image-block > .main-message-box > .title {
+.image-block > .main-message-box > .title {
   font-size: 12px;
 }
 
-.price-card-block > .image-block > .main-message {
+ .image-block > .main-message {
   width: 70%;
   height: auto;
   margin: 5% auto;
@@ -23,7 +22,7 @@
   font-weight: bold;
 }
 
-.price-card-block > .price-block {
+.price-block {
   width: 50%;
   height: auto;
   margin: 5% auto;
@@ -31,7 +30,7 @@
   padding: 2%;
 }
 
-.price-card-block > .price-block > .customize-box>
+.price-block > .customize-box>
 .one-custom,
 .second-custom,
 .third-custom,
@@ -40,14 +39,13 @@
   font-weight: bold;
   margin: 5% 0;
 }
-
-.price-card-block > .price-block> .price-box> .price {
+ .price-block> .price-box> .price {
   font-weight: bold;
   font-size: 30px;
 }
 
-
-.price-card-block > .price-block> .price-box> .tax {
+.price-block> .price-box> .tax {
   font-weight: bold;
   font-size: 15px;
+}
 }

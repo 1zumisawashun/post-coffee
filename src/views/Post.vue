@@ -6,7 +6,7 @@
     </div>
     <perfect-scrollbar>
       <div v-for="i in 20" :key="i.id">
-        <div class="post-block">
+        <div class="ps-block">
           <div class="date">2021.4.28</div>
           <div class="post">
             とりぐら｜一人暮らしの毎日がもっと楽しく / Vol.49 突然過ぎ～！
@@ -19,7 +19,8 @@
 </template>
 
 <script>
-import "@/assets/scss/Post.scss";
+import "@/assets/scss/post-container.scss";
+import "@/assets/scss/perfect-scrollbar.scss";
 export default {};
 </script>
 

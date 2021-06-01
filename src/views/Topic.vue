@@ -19,7 +19,7 @@
 </template>
 
 <script>
-import "@/assets/scss/Topic.scss";
+import "@/assets/scss/topic-container.scss";
 import TopicCarousel from "@/components/TopicCarousel.vue";
 export default {
   data() {
