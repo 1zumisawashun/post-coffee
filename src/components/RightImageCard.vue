@@ -1,16 +1,13 @@
 <template>
   <div class="right-image-card-container">
-    <div class="info-block">
-      <div class="title-box">
-        <div class="title">{{ RightImageCard.title }}</div>
-        <hr class="hr" />
-      </div>
-      <div class="main-message">{{ RightImageCard.mainmessage }}</div>
-      <div class="sub-message">{{ RightImageCard.submessage }}</div>
-      <div class="addition-message">{{ RightImageCard.additionmessage }}</div>
+    <div class="info">
+      <div class="title">{{ RightImageCard.title }}</div>
+      <div class="mainmessage">{{ RightImageCard.mainmessage }}</div>
+      <div class="submessage">{{ RightImageCard.submessage }}</div>
+      <div class="addition">{{ RightImageCard.additionmessage }}</div>
     </div>
-    <div class="image-block">
-      <img :src="RightImageCard.image" alt="" />
+    <div class="picture">
+      <img :src="RightImageCard.image" alt="" classs="image" />
     </div>
   </div>
 </template>

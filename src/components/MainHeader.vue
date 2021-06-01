@@ -1,17 +1,16 @@
 <template>
   <div class="main-header-container">
     <img src="@/assets/images/postcoffeeheader.jpeg" alt="" class="image" />
-
-    <div class="message-block">
-      <div class="sub-message">
+    <div class="message">
+      <div class="submessage">
         {{ submessage }}
       </div>
-      <div class="main-message whitespace">
-        {{mainmessage}}
+      <div class="mainmessage whitespace">
+        {{ mainmessage }}
       </div>
 
-      <div class="mh-diagnosis-button-container">
-        <div class="mh-diagnosis-button">
+      <div class="diagnosis-button-wrapper">
+        <div class="diagnosis-button">
           <DiagnosisButton></DiagnosisButton>
         </div>
       </div>
@@ -37,5 +36,4 @@ export default {
 </script>
 
 <style scoped>
-
 </style>

@@ -1,30 +1,29 @@
 <template>
   <div class="price-card-block">
-    <div class="image-block">
-      <div class="main-message-box">
+    <div class="content">
+      <div class="info">
         <div class="title">{{ price.title }}</div>
-        <hr class="hr" />
+        <div class="message">{{ price.mainmessage }}</div>
       </div>
-      <div class="main-message">{{ price.mainmessage }}</div>
-      <div class="image">
+      <div class="picture">
         <img :src="price.image" alt="" />
       </div>
     </div>
 
-    <div class="price-block">
-      <div class="customize-box">
-        <div class="one-custom">{{ price.firstcustom }}</div>
+    <div class="customize">
+      <div class="menu">
+        <div class="item">{{ price.firstcustom }}</div>
         <div class="plus">+</div>
-        <div class="second-custom">{{ price.secondcustom }}</div>
+        <div class="item">{{ price.secondcustom }}</div>
         <div class="plus">+</div>
-        <div class="third-custom">{{ price.thirdcustom }}</div>
+        <div class="item">{{ price.thirdcustom }}</div>
         <div class="plus">+</div>
-        <div class="forth-custom">{{ price.forthcustom }}</div>
+        <div class="item">{{ price.forthcustom }}</div>
       </div>
 
-      <div class="price-box">
-        <div class="price">{{ price.price }}</div>
-        <div class="tax">{{ price.tax }}</div>
+      <div class="price">
+        <div class="excludingtax">{{ price.price }}</div>
+        <div class="includingtax">{{ price.tax }}</div>
       </div>
     </div>
   </div>

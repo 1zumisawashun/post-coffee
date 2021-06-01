@@ -13,42 +13,38 @@
   flex-wrap: wrap;
   padding: 5% 2.5%;
 }
- .product-block > .product-left-block {
+ .product-block > .picture {
   width: 58%;
   height: auto;
 }
- .product-block > .product-right-block {
+ .product-block > .content {
   width: 40%;
   height: auto;
   margin: 0 0 0 2%;
 }
-.product-left-block > .postcoffeebox {
+.picture > .image {
   width: 110%;
   height: auto;
   position: relative;
   left: -15%;
   top: 0;
 }
-.product-right-block > .title-box {
+.content > .title {
   width: 40%;
   height: auto;
   margin: 5% 0;
-}
-.product-right-block > .title-box > .title {
   font-size: 12px;
-}
-.product-right-block > .title-box > .hr {
-  width: 100%;
+  border-bottom: solid 1px black;
 }
 
-.product-right-block > .main-message {
+.content > .mainmessage {
   width: 100%;
   font-size: 25px;
   font-weight: bold;
   text-align: left;
   margin: 5% 0;
 }
-.product-right-block > .sub-message {
+.content > .submessage {
   width: 100%;
   font-size: 15px;
   font-weight: bold;
@@ -56,7 +52,7 @@
   margin: 5% 0;
 }
 
-.product-right-block > .feature-block {
+.content > .feature {
   width: 100%;
   height: auto;
   background-color: #f1f1f1;
@@ -64,19 +60,19 @@
   text-align: left;
   margin: 5% 0;
 }
-.product-right-block > .feature-block >.first-feature,.second-feature,.third-feature {
+.content > .feature >.item {
   margin: 2%;
   font-size: 15px;
   font-weight: bold;
 }
 
-.product-right-block > .price-block {
+.content > .price {
   width: 100%;
   height: 70px;
   display: flex;
   margin: 5% 0;
 }
-.product-right-block > .price-block > .ship {
+.content > .price > .ship {
   width: 18%;
   height: 25px;
   border: solid;
@@ -85,21 +81,21 @@
   align-items: flex-end;
   margin: 3.5% 0 0 ;
 }
-.product-right-block > .price-block > .price {
+.content > .price > .excludingtax {
   width: 50%;
   height: 50px;
   font-weight: bold;
   font-size: 50px;
   align-items: flex-end;
 }
-.product-right-block > .price-block > .tax {
+.content > .price > .includingtax {
   width: 28%;
   height: auto;
   font-size: 15px;
   align-items: flex-end;
   margin: 6% 0 0 ;
 }
-.price-diagnosis-button{
+.diagnosis-button{
   width: 100%;
   background-color: black;
   color: white ;

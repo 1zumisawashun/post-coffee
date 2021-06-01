@@ -1,46 +1,39 @@
 <template>
-  <div class="price-container">
-    <div class="price-description-block">
-      <div class="titlebox">
-        <div class="title">様々なコーヒーライフスタイルに</div>
-        <hr class="hr" />
-      </div>
-      <div class="mainmessage">例えばこんなカスタマイズ</div>
-    </div>
-
-    <div class="price-card-container">
-      <div v-for="price in prices" :key="price.id">
-        <PriceCard :price="price"></PriceCard>
-      </div>
-    </div>
-
-    <div class="price-description-block">
-      <div class="titlebox">
-        <div class="title">すぐに始められるコーヒーライフ</div>
-        <hr class="hr" />
-      </div>
-      <div class="mainmessage">あなたのカスタマイズで始めよう！</div>
-    </div>
-
-    <div class="cp-container">
-      <div class="cpprice">月々¥1,480~（税込¥1,598~）</div>
-      <div class="fourcps">
-        <hr />
-        <div class="cps">4つの特典</div>
-        <hr />
-      </div>
-      <div class="cp-block">
-        <div class="cpbox" v-for="cp in cps" :key="cp.id">
-          <div class="cptitle">{{ cp.title }}</div>
-          <div class="cpmessage">{{ cp.message }}</div>
+    <div class="price-container">
+      <div class="price-description-block">
+        <div class="info">
+          <div class="title">様々なコーヒーライフスタイルに</div>
+          <div class="message">例えばこんなカスタマイズ</div>
         </div>
       </div>
-      <div class="cp-diagnosis-button-container">
-        <div class="cp-diagnosis-button">
-          <a>無料でコーヒー診断をする</a>
+      <div class="price-card-container">
+        <div v-for="price in prices" :key="price.id">
+          <PriceCard :price="price"></PriceCard>
         </div>
       </div>
-    </div>
+      <div class="price-description-block">
+        <div class="info">
+          <div class="title">すぐに始められるコーヒーライフ</div>
+          <div class="message">あなたのカスタマイズで始めよう！</div>
+        </div>
+      </div>
+
+      <div class="campaign-container">
+        <div class="price">月々¥1,480~（税込¥1,598~）</div>
+        <div class="title">4つの特典</div>
+      
+        <div class="campaign">
+          <div class="item" v-for="cp in cps" :key="cp.id">
+            <div class="name">{{ cp.title }}</div>
+            <div class="message">{{ cp.message }}</div>
+          </div>
+        </div>
+        <div class="diagnosis-button-wrapper">
+          <div class="diagnosis-button">
+            <a>無料でコーヒー診断をする</a>
+          </div>
+        </div>
+      </div>
   </div>
 </template>
 

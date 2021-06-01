@@ -3,10 +3,12 @@
   height: auto;
   margin: 10% auto;
 
-.title-box {
-  width: 20%;
-  margin: 0 auto;
-  font-size: 12px;
-  font-weight: bold;
-}
+  .title {
+    width: 17%;
+    margin: 0 auto;
+    font-size: 14px;
+    font-weight: bold;
+    border-bottom: solid 1px black;
+  }
+  
 }

@@ -5,24 +5,27 @@
   padding: 4% 0 2%;
   display: flex;
 
-  .footerlogo {
+  .logo {
     width: 20%;
   }
-  .footerlogo > .logo {
+
+  .logo > .image {
     width: 120px;
     height: auto;
   }
   
-  .snsbox {
+  .sns {
     width: 10%;
     display: flex;
     justify-content: space-between;
   }
-  .snsbox > .snsicon {
+
+  .sns > .icon {
     width: 20px;
     height: 20px;
   }
-  .footerlink {
+  
+  .link {
     width: 67.5%;
     height: auto;
     margin: 0 0 0 auto;

@@ -10,16 +10,16 @@
     >
       <slide v-for="feedback in feedbacks" :key="feedback.id">
         <div class="feedback-card-container">
-          <div class="feedback-picture-block">
+          <div class="picture">
             <img :src="feedback.cardimage" alt="" />
           </div>
-          <div class="feedback-user-block">
-            <div class="userinfo">
-              <div class="iconbox">
+          <div class="user">
+            <div class="profile">
+              <div class="icon">
                 <img
                   :src="feedback.usericon"
                   alt="lifehacker"
-                  class="usericon"
+                  class="image"
                 />
               </div>
               <div class="name">{{ feedback.username }}</div>

@@ -2,23 +2,23 @@
   <div class="footer-container">
     <!-- footer-blockからさらに分けたほうが良いのか？ -->
     <div class="footer-block">
-      <div class="footerlogo">
-        <img src="@/assets/images/postcoffeelogo.png" alt="" class="logo" />
+      <div class="logo">
+        <img src="@/assets/images/postcoffeelogo.png" alt="" class="image" />
       </div>
 
-      <div class="snsbox">
-        <div class="snsicon">
+      <div class="sns">
+        <div class="icon">
           <img src="@/assets/images/sns_instagram.png" alt="instagram" />
         </div>
-        <div class="snsicon">
+        <div class="icon">
           <img src="@/assets/images/sns_facebook.png" alt="facebook" />
         </div>
-        <div class="snsicon">
+        <div class="icon">
           <img src="@/assets/images/sns_twitter.png" alt="twitter" />
         </div>
       </div>
 
-      <div class="footerlink">
+      <div class="link">
         <div class="item">採用情報</div>
         <div class="item">プレスキット</div>
         <div class="item">取材に関するお問い合わせ</div>

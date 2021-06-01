@@ -4,48 +4,53 @@
   margin: 0% auto 10%;
   background-color: white;
 
-  .image-block > .main-message-box {
-  width: 45%;
-  margin:0 auto;
-  padding: 5% 0 0;
-}
+  .content > .info {
+    width: 70%;
+    height: auto;
+    margin: 0 auto;
+    padding: 5% 0 0;
+  }
 
-.image-block > .main-message-box > .title {
-  font-size: 12px;
-}
+  .content > .info > .title {
+    width: 65%;
+    margin: 0 auto;
+    font-size: 12px;
+    padding: 0 0 1.5%;
+    border-bottom: solid 1px black;
+  }
+  .content > .picture {
+    width: 100%;
+    height: 200px;
+  }
 
- .image-block > .main-message {
-  width: 70%;
-  height: auto;
-  margin: 5% auto;
-  font-size: 16px;
-  font-weight: bold;
-}
+  .content > .info > .message {
+    width: 100%;
+    height: auto;
+    margin: 8% auto;
+    font-size: 16px;
+    font-weight: bold;
+  }
 
-.price-block {
-  width: 50%;
-  height: auto;
-  margin: 5% auto;
-  border: solid;
-  padding: 2%;
-}
+  .customize {
+    width: 50%;
+    height: auto;
+    margin: 5% auto;
+    border: solid;
+    padding: 2%;
+  }
 
-.price-block > .customize-box>
-.one-custom,
-.second-custom,
-.third-custom,
-.forth-custom {
-  font-size: 12px;
-  font-weight: bold;
-  margin: 5% 0;
-}
- .price-block> .price-box> .price {
-  font-weight: bold;
-  font-size: 30px;
-}
+  .customize > .menu > .item {
+    font-size: 12px;
+    font-weight: bold;
+    margin: 5% 0;
+  }
+  .customize > .price > .excludingtax {
+    font-weight: bold;
+    font-size: 30px;
+  }
 
-.price-block> .price-box> .tax {
-  font-weight: bold;
-  font-size: 15px;
-}
+  .customize > .price > .includingtax {
+    font-weight: bold;
+    font-size: 15px;
+  }
 }

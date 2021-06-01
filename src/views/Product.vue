@@ -2,32 +2,43 @@
   <div class="product-container">
     <!-- first-section -->
     <div class="product-block">
-      <div class="product-left-block">
-        <img src="@/assets/images/postcoffee_box.png" alt="" class="postcoffeebox" />
+      <div class="picture">
+        <img
+          src="@/assets/images/postcoffee_box.png"
+          alt=""
+          class="image"
+        />
       </div>
-      <div class="product-right-block">
-        <div class="title-box">
-          <div class="title">{{ title }}</div>
-          <hr class="hr" />
+      <div class="content">
+        <div class="title">{{ title }}</div>
+
+        <div class="mainmessage">
+          {{ mainmessage }}
         </div>
-        <div class="main-message" >
-          {{mainmessage}}
+        <div class="submessage">
+          {{ submessage }}
         </div>
-        <div class="sub-message" >
-          {{submessage}}
+        <div class="feature">
+          <div class="item">
+            <img src="@/assets/images/icon_check.png" alt="" />
+            {{ firstfeature }}
+          </div>
+          <div class="item">
+            <img src="@/assets/images/icon_check.png" alt="" />
+            {{ secondfeature }}
+          </div>
+          <div class="item">
+            <img src="@/assets/images/icon_check.png" alt="" />
+            {{ thirdfeature }}
+          </div>
         </div>
-        <div class="feature-block">
-          <div class="first-feature"><img src="@/assets/images/icon_check.png" alt=""> {{ firstfeature }}</div>
-          <div class="second-feature"><img src="@/assets/images/icon_check.png" alt=""> {{ secondfeature }}</div>
-          <div class="third-feature"><img src="@/assets/images/icon_check.png" alt=""> {{ thirdfeature }}</div>
-        </div>
-        <div class="price-block">
+        <div class="price">
           <div class="ship">{{ ship }}</div>
-          <div class="price">{{ price }}</div>
-          <div class="tax">{{ tax }}</div>
+          <div class="excludingtax">{{ price }}</div>
+          <div class="includingtax">{{ tax }}</div>
         </div>
-        <div class="price-diagnosis-button">
-          <a>{{pricediagnosisbutton}} </a>
+        <div class="diagnosis-button">
+          <a>{{ pricediagnosisbutton }} </a>
         </div>
       </div>
     </div>
@@ -58,7 +69,7 @@ export default {
   data() {
     return {
       title: "あなた専用のコーヒーボックス",
-      mainmessage:`すぐにコーヒーライフを始めるためのオールインワンボックス
+      mainmessage: `すぐにコーヒーライフを始めるためのオールインワンボックス
 診断から好みにあったコーヒーが3種類`,
       submessage: `好みに合わせて、豆の挽き方や頻度、分量、シュガー、ミルク（クリープ）などカスタマイズ！`,
       firstfeature: "マグとお湯を用意するだけでOK！",

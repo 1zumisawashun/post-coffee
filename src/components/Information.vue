@@ -1,12 +1,12 @@
 <template>
   <div class="information-block">
-    <div class="left-information-block">
-      <img :src="information.image" alt="" class="information-image" />
+    <div class="icon">
+      <img :src="information.image" alt="" class="image" />
     </div>
-    <div class="right-information-block">
+    <div class="info">
       <div class="title">{{ information.title }}</div>
-      <div class="main-message">{{ information.mainmessage }}</div>
-      <div class="sub-message">{{ information.submessage }}</div>
+      <div class="mainmessage">{{ information.mainmessage }}</div>
+      <div class="submessage">{{ information.submessage }}</div>
     </div>
   </div>
 </template>

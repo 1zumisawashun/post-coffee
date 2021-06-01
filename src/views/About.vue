@@ -19,7 +19,6 @@
 </template>
 
 <script>
-import "@/assets/scss/about-container.scss";
 import "@/assets/scss/information-wrapper.scss";
 import Information from "@/components/Information.vue";
 import RightImageCard from "@/components/RightImageCard.vue";

@@ -1,48 +1,51 @@
 
-.cp-container{
-  .cpprice {
+.campaign-container{
+  .price {
     font-size: 35px;
     font-weight: bold;
   }
-   .fourcps {
-    width: 55%;
-    margin: 0 auto;
+   .title {
+    width: 50%;
+    margin: 2% auto;
     font-size: 15px;
     font-weight: bold;
-    padding: 2% 0;
+    padding: 1%;
+    border-top: 1px solid lightgray;
+    border-bottom: 1px solid lightgray;
   }
   //分ける
-  .cp-block {
+  .campaign {
     width: 55%;
     height: auto;
     margin: 0 auto;
     display: flex;
     background-color: white;
   }
-  .cp-block > .cpbox {
+  .campaign > .item {
     width: 20%;
     margin: 3% auto;
     background-color: white;
   }
-  .cp-block > .cpbox > .cptitle {
+  .campaign > .item > .name {
     font-size: 15px;
     font-weight: bold;
     background-color: #f1f1f1;
     padding: 3% 0;
+   
   }
   
-  .cp-block > .cpbox > .cpmessage {
+  .campaign > .item > .message {
     font-size: 15px;
     font-weight: bold;
     padding: 5% 0;
   }
 
   //分ける
-  .cp-diagnosis-button-container {
+  .diagnosis-button-wrapper {
     width: 55%;
     margin: 0 auto;
   }
-  .cp-diagnosis-button {
+  .diagnosis-button {
     width: 100%;
     background-color: black;
     color: white;

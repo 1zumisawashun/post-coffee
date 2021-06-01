@@ -4,32 +4,32 @@
   height: 125px;
   display: flex;
 
-  .left-information-block {
+  .icon {
     width: 20%;
     height: auto;
     line-height: 125px;
   }
-  .left-information-block > .information-image {
+  .icon > .image {
     width: 40px;
     line-height: 100px;
     margin: 0 auto;
   }
-  .right-information-block {
+  .info {
     width: 80%;
     height: auto;
   }
-  .right-information-block > .title {
+  .info > .title {
     font-size: 12px;
     text-align: left;
     padding: 3%;
   }
-  .right-information-block > .main-message {
+  .info > .mainmessage {
     font-size: 16px;
     font-weight: bold;
     text-align: left;
     padding: 1%;
   }
-  .right-information-block > .sub-message {
+  .info > .submessage {
     font-size: 12px;
     text-align: left;
     padding: 2%;

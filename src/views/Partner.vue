@@ -1,7 +1,7 @@
 <template>
   <div class="partner-container">
-    <div class="logobox">
-      <img src="@/assets/images/roasterpartnerlogo.png" alt="" class="logo" />
+    <div class="logo">
+      <img src="@/assets/images/roasterpartnerlogo.png" alt="" class="image" />
     </div>
     <div class="mainmessage">{{ mainmessage }}</div>
     <div class="submessage">{{ submessage }}</div>

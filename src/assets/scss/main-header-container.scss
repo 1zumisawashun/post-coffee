@@ -3,44 +3,44 @@
   height: 835px;
   position: relative;
 
- .image {
-  width: 100%;
-  height: auto;
-  object-fit: cover;
-}
-.message-block {
-  width: 60%;
-  height: 500px;
-  margin: 0 auto;
-  position: absolute;
-  top: 20%;
-  left: 20%;
-}
+  .image {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+  }
+  .message {
+    width: 60%;
+    height: 500px;
+    margin: 0 auto;
+    position: absolute;
+    top: 20%;
+    left: 20%;
+  }
 
-.message-block > .sub-message {
-  font-weight: bold;
-  font-size: 20px;
-  margin: 3%;
-} .message-block > .main-message {
-  font-weight: bold;
-  font-size: 50px;
-}
+  .message > .submessage {
+    font-weight: bold;
+    font-size: 20px;
+    margin: 3%;
+  }
+  .message > .mainmessage {
+    font-weight: bold;
+    font-size: 50px;
+  }
 
-.mh-diagnosis-button-container{
-  width: 50%;
-  height: auto;
-  margin: 25% 25% 0;
-}
+  .diagnosis-button-wrapper {
+    width: 50%;
+    height: auto;
+    margin: 10% 25% 0;
+  }
 
-.mh-diagnosis-button-container>.mh-diagnosis-button{
-  width: 100%;
-  background-color: black;
-  color: white ;
-  border: 1px solid black;
-  font-size: 20px;
-  font-weight: bold;
-  border-radius: 2rem;
-  padding:3% 0;
+  .diagnosis-button-wrapper > .diagnosis-button {
+    width: 100%;
+    background-color: black;
+    color: white;
+    border: 1px solid black;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 2rem;
+    padding: 3% 0;
+  }
 }
-}
-
