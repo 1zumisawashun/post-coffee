@@ -2,15 +2,16 @@
   width: 100%;
   height: auto;
   color: white;
+  font-weight: bold;
   background-image: url("~@/assets/images/roaster_bg.jpeg");
   /* relativeを指定しないと表示されない */
   position: relative;
   padding: 0 0 5% 0 ;
  
- .logobox{
+ .logo{
     padding: 3%;
   }
-   .logobox > .logo{
+   .logo > .image{
     width: 200px;
     height: auto;
     object-fit: cover;
@@ -18,10 +19,12 @@
   .mainmessage{
     width: 40%;
     margin: 1% auto;
+    font-size: 15px;
   }
    .submessage{
     width: 50%;
     margin: 3% auto;
+    font-size: 13px;
   }
 }
 

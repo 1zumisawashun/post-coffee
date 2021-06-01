@@ -8,10 +8,10 @@
       :speed="500"
     >
       <slide v-for="carousel in carousels" :key="carousel.id">
-        <div class="carousel-main-message">
+        <div class="mainmessage">
           {{ carousel.mainmessage }}
         </div>
-        <div class="carousel-sub-message">
+        <div class="submessage">
           {{ carousel.submessage }}
         </div>
         <div class="line"></div>

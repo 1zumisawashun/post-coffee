@@ -5,38 +5,33 @@ margin: 5% auto;
 display: flex;
 flex-wrap: wrap;
 
- .image-block{
+ .picture{
   width: 45%;
   height: auto;
   margin: 0 auto;
 
 }
-.info-block{
+.info{
   width: 45%;
   height: auto;
   margin: 10% auto;
   
 }
- .info-block >.title-box{
+ .info >.title{
 width: 30%;
 height: auto;
 margin: 5% 0 ;
+border-bottom: 1px solid black;
+font-size: 13px;
 }
 
- .info-block >.title-box>.title{
-   font-size: 13px;
-}
- .info-block >.title-box >.hr{
-   width: 100%;
-}
-
-.info-block >.main-message{
+.info >.mainmessage{
    font-size: 25px;
    font-weight: bold;
    margin: 5% 0 ;
 }
 
-.info-block >.sub-message{
+.info >.submessage{
    font-size: 15px;
    margin: 5% 0 ;
 }

@@ -1,16 +1,13 @@
 <template>
   <div class="left-image-card-container">
-    <div class="image-block">
-        <img :src="LeftImageCard.image" alt="" />
+    <div class="picture">
+        <img :src="LeftImageCard.image" alt="" class="image" />
     </div>
-      <div class="info-block">
-        <div class="title-box">
+      <div class="info">
         <div class="title">{{ LeftImageCard.title }}</div>
-        <hr class="hr">
-        </div>
-        <div class="main-message">{{ LeftImageCard.mainmessage }}</div>
-        <div class="sub-message">{{ LeftImageCard.submessage }}</div>
-        <div class="addition-message">{{ LeftImageCard.additionmessage }}</div>
+        <div class="mainmessage">{{ LeftImageCard.mainmessage }}</div>
+        <div class="submessage">{{ LeftImageCard.submessage }}</div>
+        <div class="addition">{{ LeftImageCard.additionmessage }}</div>
       </div>
     </div>
 </template>

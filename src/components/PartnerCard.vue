@@ -1,14 +1,12 @@
 <template>
   <div class="partner-card-container">
-    <div v-for="card in cards" :key="card.id" class="partner-card">
-      <div >
-        <div class="image-block">
-          <img :src="card.image" alt="" class="image" />
-        </div>
-        <div class="info-block">
-          <div class="name">{{ card.name }}</div>
-          <div class="prefecture">{{ card.prefecture }}</div>
-        </div>
+    <div v-for="card in cards" :key="card.id" class="card">
+      <div class="picture">
+        <img :src="card.image" alt="" class="image" />
+      </div>
+      <div class="info">
+        <div class="name">{{ card.name }}</div>
+        <div class="prefecture">{{ card.prefecture }}</div>
       </div>
     </div>
   </div>

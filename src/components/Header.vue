@@ -1,23 +1,23 @@
 <template>
   <div>
     <div class="header-container">
-      <div class="header-logo-block">
+      <div class="logo">
         <img src="@/assets/images/postcoffeelogo.png" alt="" class="image">
       </div>
-      <div class="header-left-block">
-        <div class="about">ABOUT</div>
-        <div class="store">STORE</div>
-        <div class="faq">FAQ</div>
-        <div class="magagine">MAGAGINE</div>
-        <div class="instagram">
-          <img src="@/assets/images/sns_instagram.png" alt="instagtram" class="sns-icon">
+      <div class="link">
+        <div class="item">ABOUT</div>
+        <div class="item">STORE</div>
+        <div class="item">FAQ</div>
+        <div class="item">MAGAGINE</div>
+        <div class="item">
+          <img src="@/assets/images/sns_instagram.png" alt="instagtram" class="icon">
         </div>
-        <div class="twitter">
-           <img src="@/assets/images/sns_twitter.png" alt="twitter" class="sns-icon">
+        <div class="item">
+           <img src="@/assets/images/sns_twitter.png" alt="twitter" class="icon">
         </div>
       </div>
-      <div class="header-right-block">
-        <div class="hr-diagnosis-button">
+      <div class="buttons">
+        <div class="diagnosis-button-wrapper">
         <DiagnosisButton></DiagnosisButton>
         </div>
         <a class="login-button">LOGIN</a>
