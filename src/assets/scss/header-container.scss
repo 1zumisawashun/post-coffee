@@ -41,14 +41,14 @@ $link-margin: 1rem;
   }
 
   //right
-  .buttons {
+  .button {
     width: 30%;
     height: 50px;
     display: flex;
     flex-wrap: wrap;
   }
 
-  .buttons > .login-button {
+  .button > .login-button {
     width: 15%;
     background-color: white;
     color: black;
@@ -59,7 +59,7 @@ $link-margin: 1rem;
     margin: 1.5rem 1rem;
     padding: 0.25rem 1rem;
   }
-  .buttons > .diagnosis-button-wrapper {
+  .button > .wrapper {
     width: 40%;
     background-color: black;
     color: white;

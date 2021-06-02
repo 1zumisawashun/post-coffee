@@ -13,7 +13,7 @@
 </template>
 
 <script>
-import "@/assets/scss/partner-card-container.scss";
+ import "@/assets/scss/partner-card-container.scss";
 export default {
   data() {
     return {
@@ -80,6 +80,3 @@ export default {
   },
 };
 </script>
-
-<style scoped>
-</style>

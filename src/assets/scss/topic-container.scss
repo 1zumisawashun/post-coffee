@@ -3,6 +3,7 @@
   height: auto;
   background-color: #f1f1f1;
   padding: 5% 0 0;
+  margin: 8% 0 0 0 ;
 
 .description{
   margin: 3%;
@@ -13,7 +14,7 @@
   font-size: 15px;
   border-bottom: solid 1px black; 
 }
- .description > .mainmessage {
+ .description > .headline {
   font-size: 25px;
   font-weight: bold;
 }

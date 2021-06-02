@@ -3,15 +3,15 @@
     <div class="logo">
       <img src="@/assets/images/roasterpartnerlogo.png" alt="" class="image" />
     </div>
-    <div class="mainmessage">{{ mainmessage }}</div>
-    <div class="submessage">{{ submessage }}</div>
+    <div class="headline">{{ mainmessage }}</div>
+    <div class="text">{{ submessage }}</div>
     <PartnerCard></PartnerCard>
   </div>
 </template>
 
 <script>
 import PartnerCard from "@/components/PartnerCard.vue";
-import "@/assets/scss/partner-container.scss";
+ import "@/assets/scss/partner-container.scss";
 export default {
   data() {
     return {
@@ -28,6 +28,3 @@ export default {
   },
 };
 </script>
-<style lang="scss" scoped>
-
-</style>

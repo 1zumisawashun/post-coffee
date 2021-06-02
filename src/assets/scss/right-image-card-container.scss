@@ -5,7 +5,7 @@
   display: flex;
   flex-wrap: wrap;
 
-  .picture {
+   .picture {
     width: 45%;
     height: auto;
     margin: 0 auto;
@@ -23,13 +23,13 @@
     border-bottom: 1px solid black;
   }
 
-  .info > .mainmessage {
+  .info > .headline {
     font-size: 25px;
     font-weight: bold;
     margin: 5% 0;
   }
 
-  .info > .submessage {
+  .info > .text {
     font-size: 15px;
     margin: 5% 0;
   }

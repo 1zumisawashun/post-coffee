@@ -9,7 +9,7 @@
       <RightImageCard :RightImageCard="cards[3]"></RightImageCard>
     </div>
     <div class="information-wrapper">
-      <div class="information-container">
+      <div class="content">
         <div v-for="(information, index) in informations" :key="index">
           <Information :information="information"></Information>
         </div>
@@ -19,7 +19,7 @@
 </template>
 
 <script>
-import "@/assets/scss/information-wrapper.scss";
+ import "@/assets/scss/information-wrapper.scss";
 import Information from "@/components/Information.vue";
 import RightImageCard from "@/components/RightImageCard.vue";
 import LeftImageCard from "@/components/LeftImageCard.vue";

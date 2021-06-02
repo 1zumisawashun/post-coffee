@@ -36,11 +36,7 @@
 </template>
 
 <script>
-import "@/assets/scss/footer-container.scss";
 import "@/assets/scss/footer-block.scss";
+import "@/assets/scss/footer-container.scss";
 export default {};
 </script>
-
-<style lang="scss" scoped>
-
-</style>

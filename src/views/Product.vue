@@ -1,7 +1,7 @@
 <template>
-  <div class="product-container">
+  <div >
     <!-- first-section -->
-    <div class="product-block">
+    <div class="product-container">
       <div class="picture">
         <img
           src="@/assets/images/postcoffee_box.png"
@@ -12,10 +12,10 @@
       <div class="content">
         <div class="title">{{ title }}</div>
 
-        <div class="mainmessage">
+        <div class="headline">
           {{ mainmessage }}
         </div>
-        <div class="submessage">
+        <div class="text">
           {{ submessage }}
         </div>
         <div class="feature">
@@ -46,7 +46,7 @@
     <FeedbackCarousel></FeedbackCarousel>
     <!-- third-section -->
     <div class="information-wrapper">
-      <div class="information-container">
+      <div class="content">
         <div v-for="(information, index) in informations" :key="index">
           <Information :information="information"></Information>
         </div>
@@ -57,7 +57,7 @@
 
 <script>
 import "@/assets/scss/product-container.scss";
-import "@/assets/scss/information-wrapper.scss";
+ import "@/assets/scss/information-wrapper.scss";
 import Information from "../components/Information.vue";
 import FeedbackCarousel from "../components/FeedbackCarousel.vue";
 export default {
@@ -116,6 +116,3 @@ export default {
   mounted() {},
 };
 </script>
-
-<style scoped>
-</style>

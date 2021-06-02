@@ -28,7 +28,7 @@
             <div class="message">{{ cp.message }}</div>
           </div>
         </div>
-        <div class="diagnosis-button-wrapper">
+        <div class="wrapper">
           <div class="diagnosis-button">
             <a>無料でコーヒー診断をする</a>
           </div>
@@ -39,9 +39,9 @@
 
 <script>
 import PriceCard from "@/components/PriceCard.vue";
-import "@/assets/scss/price-container.scss";
-import "@/assets/scss/price-description-block.scss";
-import "@/assets/scss/cp-container.scss";
+ import "@/assets/scss/price-container.scss";
+ import "@/assets/scss/price-description-block.scss";
+ import "@/assets/scss/cp-container.scss";
 
 export default {
   components: {
@@ -112,6 +112,3 @@ export default {
   },
 };
 </script>
-
-<style scoped>
-</style>

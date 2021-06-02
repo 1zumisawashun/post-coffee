@@ -2,14 +2,14 @@
   <div class="main-header-container">
     <img src="@/assets/images/postcoffeeheader.jpeg" alt="" class="image" />
     <div class="message">
-      <div class="submessage">
+      <div class="text">
         {{ submessage }}
       </div>
-      <div class="mainmessage whitespace">
+      <div class="headline">
         {{ mainmessage }}
       </div>
 
-      <div class="diagnosis-button-wrapper">
+      <div class="wrapper">
         <div class="diagnosis-button">
           <DiagnosisButton></DiagnosisButton>
         </div>

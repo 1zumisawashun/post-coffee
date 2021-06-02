@@ -8,10 +8,10 @@
       :speed="500"
     >
       <slide v-for="carousel in carousels" :key="carousel.id">
-        <div class="mainmessage">
+        <div class="headline">
           {{ carousel.mainmessage }}
         </div>
-        <div class="submessage">
+        <div class="text">
           {{ carousel.submessage }}
         </div>
         <div class="line"></div>
@@ -22,7 +22,7 @@
 </template>
 
 <script>
-import "@/assets/scss/topic-carousel-container.scss";
+ import "@/assets/scss/topic-carousel-container.scss";
 export default {
   data() {
     return {
@@ -69,6 +69,3 @@ export default {
   },
 };
 </script>
-
-<style lang="scss" scoped>
-</style>

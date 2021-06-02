@@ -2,7 +2,7 @@
   <div class="topic-container">
     <div class="description">
         <div class="title">{{message}}</div>
-      <div class="mainmessage" v-text="mainmessage"></div>
+      <div class="headline" v-text="mainmessage"></div>
     </div>
     <!-- carousel -->
     <TopicCarousel></TopicCarousel>
@@ -35,6 +35,3 @@ export default {
   }
 };
 </script>
-
-<style scoped>
-</style>

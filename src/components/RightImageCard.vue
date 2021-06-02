@@ -2,8 +2,8 @@
   <div class="right-image-card-container">
     <div class="info">
       <div class="title">{{ RightImageCard.title }}</div>
-      <div class="mainmessage">{{ RightImageCard.mainmessage }}</div>
-      <div class="submessage">{{ RightImageCard.submessage }}</div>
+      <div class="headline">{{ RightImageCard.mainmessage }}</div>
+      <div class="text">{{ RightImageCard.submessage }}</div>
       <div class="addition">{{ RightImageCard.additionmessage }}</div>
     </div>
     <div class="picture">
@@ -28,6 +28,3 @@ export default {
   },
 };
 </script>
-
-<style>
-</style>

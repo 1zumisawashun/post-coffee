@@ -2,7 +2,7 @@
   <div>
     <div class="header-container">
       <div class="logo">
-        <img src="@/assets/images/postcoffeelogo.png" alt="" class="image">
+        <img src="@/assets/images/postcoffeelogo.png" alt="" class="image" />
       </div>
       <div class="link">
         <div class="item">ABOUT</div>
@@ -10,15 +10,23 @@
         <div class="item">FAQ</div>
         <div class="item">MAGAGINE</div>
         <div class="item">
-          <img src="@/assets/images/sns_instagram.png" alt="instagtram" class="icon">
+          <img
+            src="@/assets/images/sns_instagram.png"
+            alt="instagtram"
+            class="icon"
+          />
         </div>
         <div class="item">
-           <img src="@/assets/images/sns_twitter.png" alt="twitter" class="icon">
+          <img
+            src="@/assets/images/sns_twitter.png"
+            alt="twitter"
+            class="icon"
+          />
         </div>
       </div>
-      <div class="buttons">
-        <div class="diagnosis-button-wrapper">
-        <DiagnosisButton></DiagnosisButton>
+      <div class="button">
+        <div class="wrapper">
+          <DiagnosisButton></DiagnosisButton>
         </div>
         <a class="login-button">LOGIN</a>
       </div>
@@ -27,17 +35,11 @@
 </template>
 
 <script>
-
-import DiagnosisButton from "@/components/DiagnosisButton.vue"
-import "@/assets/scss/header-container.scss"
+import DiagnosisButton from "@/components/DiagnosisButton.vue";
+import "@/assets/scss/header-container.scss";
 export default {
-components:{
-  DiagnosisButton
-}
+  components: {
+    DiagnosisButton,
+  },
 };
 </script>
-
-<style lang="scss" scoped>
-
-
-</style>

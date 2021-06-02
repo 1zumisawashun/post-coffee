@@ -17,10 +17,7 @@
 
 <script>
 import "@/assets/scss/post-container.scss";
-import "@/assets/scss/perfect-scrollbar.scss";
+ import "@/assets/scss/perfect-scrollbar.scss";
 export default {};
 </script>
-
-<style>
-</style>
 
