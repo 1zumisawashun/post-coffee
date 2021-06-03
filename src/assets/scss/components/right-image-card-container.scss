@@ -1,36 +1,33 @@
 .right-image-card-container {
-  width: 90%;
-  height: auto;
-  margin: 5% auto;
+  width: 80%;
+  margin: 5% auto ;
   display: flex;
-  flex-wrap: wrap;
 
-   .picture {
+   >.picture {
     width: 45%;
-    height: auto;
     margin: 0 auto;
   }
-  .info {
+  >.info {
     width: 45%;
     height: auto;
     margin: 10% auto;
   }
-  .info > .title {
-    width: 30%;
-    height: auto;
+  >.info > .title {
+    width: 35%;
     margin: 5% 0;
     font-size: 13px;
     border-bottom: 1px solid black;
   }
 
-  .info > .headline {
+  >.info > .headline {
     font-size: 25px;
     font-weight: bold;
     margin: 5% 0;
   }
 
-  .info > .text {
+  >.info > .text {
     font-size: 15px;
     margin: 5% 0;
+    font-weight: bold;
   }
 }

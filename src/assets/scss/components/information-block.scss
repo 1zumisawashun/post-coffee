@@ -1,37 +1,31 @@
 .information-block {
   width: 90%;
-  margin: 0 ;
-  height: 125px;
   display: flex;
 
-  .icon {
+  >.icon {
     width: 20%;
-    height: auto;
-    line-height: 125px;
+    margin: auto 0;
   }
-  .icon > .image {
+  >.icon > .image {
     width: 40px;
-    line-height: 100px;
     margin: 0 auto;
   }
-  .info {
+  >.info {
     width: 80%;
-    height: auto;
-  }
-  .info > .title {
-    font-size: 12px;
+    //全体にtext-align centerをかけているため
     text-align: left;
+  }
+  >.info > .title {
+    font-size: 12px;
     padding: 3%;
   }
-  .info > .headline {
+  >.info > .headline {
     font-size: 16px;
     font-weight: bold;
-    text-align: left;
     padding: 1%;
   }
-  .info > .text {
+  >.info > .text {
     font-size: 12px;
-    text-align: left;
     padding: 2%;
   }
 }

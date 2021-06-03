@@ -23,7 +23,6 @@
   > .campaign > .item {
     width: 20%;
     margin: 3% auto;
-    background-color: white;
   }
   > .campaign > .item > .name {
     font-size: 15px;
@@ -37,21 +36,18 @@
     font-weight: bold;
     padding: 5% 0;
   }
-
-  //分ける
   > .wrapper {
     width: 55%;
     margin: 0 auto;
   }
   > .wrapper > .diagnosis-button {
-    width: 100%;
     background-color: black;
     color: white;
     border: 1px solid black;
     font-size: 1rem;
     font-weight: bold;
-    border-radius: 2rem;
-    margin: 1rem 0;
+    border-radius: 50px;
+    margin: 1% 0;
     padding: 3% 0;
   }
 }

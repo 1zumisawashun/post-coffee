@@ -12,7 +12,6 @@
 </template>
 
 <script>
-import "@/assets/scss/information-block.scss"
 export default {
   props: ["information"],
   mounted() {

@@ -56,8 +56,6 @@
 </template>
 
 <script>
-import "@/assets/scss/product-container.scss";
- import "@/assets/scss/information-wrapper.scss";
 import Information from "../components/Information.vue";
 import FeedbackCarousel from "../components/FeedbackCarousel.vue";
 export default {

@@ -2,23 +2,23 @@
   width: 100%;
   height: auto;
 
-  .profile {
+  >.profile {
     width: 250px;
     margin: 0 auto;
     display: flex;
   }
-  .profile > .name {
+  >.profile > .name {
     line-height: 50px;
     margin: 0 10%;
     color: gray;
     font-size: 13px;
     font-weight: bold;
   }
-  .profile > .icon > .image {
+  >.profile > .icon > .image {
     border-radius: 50%;
     margin: 0 20%;
   }
-  .message {
+  >.message {
     width: 250px;
     margin: 0 auto;
     font-size: 12px;

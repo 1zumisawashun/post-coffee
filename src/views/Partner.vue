@@ -11,7 +11,6 @@
 
 <script>
 import PartnerCard from "@/components/PartnerCard.vue";
- import "@/assets/scss/partner-container.scss";
 export default {
   data() {
     return {

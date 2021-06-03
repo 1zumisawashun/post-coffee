@@ -1,0 +1,38 @@
+.footer-block {
+  width: 75%;
+  margin: 0 auto;
+  padding: 4% 0 2%;
+  display: flex;
+
+  > .logo {
+    width: 20%;
+    margin: 0 auto;
+  }
+
+  > .logo > .image {
+    width: 120px;
+  }
+
+  > .sns {
+    width: 15%;
+
+    display: flex;
+  }
+  > .sns > .icon {
+    margin: 0 auto;
+  }
+  > .sns > .icon > .image {
+    width: 25px;
+  }
+
+  > .link {
+    width: 70%;
+    display: flex;
+  }
+
+  > .link > .item {
+    font-size: 12px;
+    font-weight: bold;
+    margin: 0 auto;
+  }
+}

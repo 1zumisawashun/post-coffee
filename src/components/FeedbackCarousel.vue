@@ -31,9 +31,6 @@
 </template>
 
 <script>
-import "@/assets/scss/feedback-carousel-container.scss";
-import "@/assets/scss/feedback-card-container.scss";
-import "@/assets/scss/feedback-user-block.scss";
 export default {
   data() {
     return {

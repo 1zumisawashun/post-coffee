@@ -9,21 +9,17 @@
         {{ mainmessage }}
       </div>
 
-      <div class="wrapper">
-        <div class="diagnosis-button">
-          <DiagnosisButton></DiagnosisButton>
-        </div>
+      <div class="button">
+          <button class="diagnosis-button">コーヒー診断をする</button>
       </div>
     </div>
   </div>
 </template>
 
 <script>
-import "@/assets/scss/main-header-container.scss";
-import DiagnosisButton from "@/components/DiagnosisButton.vue";
+
 export default {
   components: {
-    DiagnosisButton,
   },
   data() {
     return {

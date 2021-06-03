@@ -1,5 +1,5 @@
 <template>
-  <div class="youtube-container">
+  <div class="common-container">
     <youtube
       :video-id="videoId"
       @playing="playing"

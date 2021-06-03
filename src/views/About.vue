@@ -19,7 +19,6 @@
 </template>
 
 <script>
- import "@/assets/scss/information-wrapper.scss";
 import Information from "@/components/Information.vue";
 import RightImageCard from "@/components/RightImageCard.vue";
 import LeftImageCard from "@/components/LeftImageCard.vue";
@@ -32,7 +31,6 @@ export default {
   },
   data() {
     return {
-      test: "korehatesutodesu",
       cards: [
         {
           image: "https://placehold.jp/550x600.png",
@@ -40,7 +38,8 @@ export default {
           mainmessage: "なんとなくでコーヒーを飲んでいませんか？",
           submessage:
             "毎日コーヒーを入れて、毎日のようにコーヒーを飲むあなた。家で飲むコーヒー、適当に買っていませんか？せっかく飲むコーヒーだから、もっと美味しいコーヒーを飲んでコーヒータイムを豊にしてみましょう。きっといつもよりハッピーに過ごせるはず。私たちは、あなたのコーヒーライフをもっと美味しく、スマートにします。",
-          additionmessage: "",
+          number: "",
+          text: "",
         },
         {
           image: "https://placehold.jp/550x600.png",
@@ -48,7 +47,8 @@ export default {
           mainmessage: "いろんなコーヒーを楽しむ壮大なコーヒージャーニー",
           submessage:
             "世界役15カ国から最高品質のスペシャリティコーヒーを厳選。そのほとんどが希少なコーヒーのために毎年の生産はわずかです。いつもあなたに美味しいコーヒーを届けることができるように、わたしたちは、これまでのデータ、フィードバックから最適な豆をセレクトしています。毎月どんなコーヒーが届くか楽しみになるはず",
-          additionmessage: "15カ国の農園　30種類のコーヒー豆",
+          number: [{ number: 15 }, { number: 3 }],
+          text: [{ text: "カ国の農園", text: "種類のコーヒー豆" }],
         },
         {
           image: "https://placehold.jp/550x600.png",
@@ -56,7 +56,8 @@ export default {
           mainmessage: "約15万通りからあなた好みを導き出します",
           submessage:
             "あなたが好きなスイーツ、お酒、普段のライフスタイルなどから、あなた専用にコーヒーボックスをカスタマイズします。カスタマイズされるのはコーヒーの種類だけではなく淹れ方、飲み方、頻度、価格など様々。あなたに最適なコーヒライフが見つかるはず。",
-          additionmessage: "150,000通りの組み合わせ",
+          number: "150,000",
+          text: "通りの組み合わせ",
         },
         {
           image: "https://placehold.jp/550x600.png",
@@ -64,7 +65,8 @@ export default {
           mainmessage: "3種類のコーヒーと飲み方に応じたオールインワン",
           submessage:
             "コーヒー診断からAIが導き出したコーヒー3種類、好みやカスタマイズに合わせて、フィルター、シュガー、ミルクがセットになって届きます。カスタマイズは変更可能。毎月自分の好きなように調整できます。",
-          additionmessage: "3種類のコーヒー",
+          number: "3",
+          text: "種類のコーヒー",
         },
       ],
       informations: [
@@ -106,5 +108,4 @@ export default {
   },
 };
 </script>
-<style lang="scss" scoped>
-</style>
+<style lang="scss" scoped></style>

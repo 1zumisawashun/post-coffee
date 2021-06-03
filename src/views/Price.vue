@@ -1,48 +1,21 @@
 <template>
-    <div class="price-container">
-      <div class="price-description-block">
-        <div class="info">
-          <div class="title">様々なコーヒーライフスタイルに</div>
-          <div class="message">例えばこんなカスタマイズ</div>
-        </div>
+  <div class="price-container">
+    <div class="description-block">
+      <div class="info">
+        <div class="title">様々なコーヒーライフスタイルに</div>
+        <div class="message">例えばこんなカスタマイズ</div>
       </div>
-      <div class="price-card-container">
-        <div v-for="price in prices" :key="price.id">
-          <PriceCard :price="price"></PriceCard>
-        </div>
+    </div>
+    <div class="price-card-container">
+      <div v-for="price in prices" :key="price.id">
+        <PriceCard :price="price"></PriceCard>
       </div>
-      <div class="price-description-block">
-        <div class="info">
-          <div class="title">すぐに始められるコーヒーライフ</div>
-          <div class="message">あなたのカスタマイズで始めよう！</div>
-        </div>
-      </div>
-
-      <div class="campaign-container">
-        <div class="price">月々¥1,480~（税込¥1,598~）</div>
-        <div class="title">4つの特典</div>
-      
-        <div class="campaign">
-          <div class="item" v-for="cp in cps" :key="cp.id">
-            <div class="name">{{ cp.title }}</div>
-            <div class="message">{{ cp.message }}</div>
-          </div>
-        </div>
-        <div class="wrapper">
-          <div class="diagnosis-button">
-            <a>無料でコーヒー診断をする</a>
-          </div>
-        </div>
-      </div>
+    </div>
   </div>
 </template>
 
 <script>
 import PriceCard from "@/components/PriceCard.vue";
- import "@/assets/scss/price-container.scss";
- import "@/assets/scss/price-description-block.scss";
- import "@/assets/scss/cp-container.scss";
-
 export default {
   components: {
     PriceCard,
@@ -85,24 +58,6 @@ export default {
           forthcustom: "各5杯、計15杯分/月1回",
           price: "¥2,280/月",
           tax: "（税込¥2,462）",
-        },
-      ],
-      cps: [
-        {
-          title: "特典1",
-          message: "ずっと全国送料無料",
-        },
-        {
-          title: "特典2",
-          message: "折りたたみドリッパープレゼント",
-        },
-        {
-          title: "特典3",
-          message: "スタートブックプレゼント",
-        },
-        {
-          title: "特典4",
-          message: "オリジナルステッカープレゼント",
         },
       ],
     };

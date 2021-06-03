@@ -13,7 +13,6 @@
 </template>
 
 <script>
-import "@/assets/scss/right-image-card-container.scss";
 export default {
   data() {
     return {

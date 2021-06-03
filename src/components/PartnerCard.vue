@@ -13,7 +13,7 @@
 </template>
 
 <script>
- import "@/assets/scss/partner-card-container.scss";
+
 export default {
   data() {
     return {

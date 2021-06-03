@@ -1,20 +1,12 @@
-//perfect-scrollbar
-.ps {
-  height: 400px;
-  border: 1px solid white;
-
 .wrapper {
-  width: 100%;
-  height: auto;
   margin: 3% 0;
   padding: 3% 0;
-  border-bottom: 1px solid #f1f1f1;
-}
-.wrapper > .post {
+
+>.post {
   display: flex;
 }
 
-.wrapper > .post > .date {
+ >.post > .date {
   width: 10%;
   margin: 0 auto;
   font-size: 14px;
@@ -22,9 +14,17 @@
   color: gray;
 }
 
-.wrapper > .post > .content {
+ >.post > .content {
   width: 80%;
   margin: 0 auto;
   font-size: 14px;
   font-weight: bold;
-}}
+}
+}
+
+//perfect-scrollbar独自のクラスのため
+.ps {
+  height: 400px;
+  border: 1px solid white;
+
+}
