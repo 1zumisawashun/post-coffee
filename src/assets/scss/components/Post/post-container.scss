@@ -1,0 +1,12 @@
+.post-container {
+    width: 60%;
+    margin: 10% auto;
+    text-align: center;
+    >.title {
+        width: 17%;
+        margin: 0 auto;
+        font-size: 14px;
+        font-weight: bold;
+        border-bottom: solid 1px black;
+    }
+}

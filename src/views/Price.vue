@@ -3,7 +3,10 @@
     <div class="description-block">
       <div class="info">
         <div class="title">様々なコーヒーライフスタイルに</div>
-        <div class="message">例えばこんなカスタマイズ</div>
+        <div class="message">
+          例えば<br />
+          こんなカスタマイズ
+        </div>
       </div>
     </div>
     <div class="price-card-container">

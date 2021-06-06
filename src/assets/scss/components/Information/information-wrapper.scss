@@ -1,9 +1,10 @@
 .information-wrapper {
     background-color: #f1f1f1;
+    padding: 5% 0;
     >.content {
-        width: 75%;
+        width: 70%;
         margin: 0 auto;
-        padding: 5% 0;
         display: flex;
+        justify-content: space-between;
     }
 }

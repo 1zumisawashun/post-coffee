@@ -3,7 +3,10 @@
     <div class="description-block">
       <div class="info">
         <div class="title">すぐに始められるコーヒーライフ</div>
-        <div class="message">あなたのカスタマイズで始めよう！</div>
+        <div class="message">
+          あなたの<br />
+          カスタマイズで始めよう！
+        </div>
       </div>
     </div>
 
@@ -28,9 +31,9 @@
 
 <script>
 export default {
-    data(){
-        return{
-            cps: [
+  data() {
+    return {
+      cps: [
         {
           title: "特典1",
           message: "ずっと全国送料無料",
@@ -48,8 +51,8 @@ export default {
           message: "オリジナルステッカープレゼント",
         },
       ],
-        }
-    }
+    };
+  },
 };
 </script>
 

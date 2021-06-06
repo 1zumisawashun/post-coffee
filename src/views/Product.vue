@@ -1,22 +1,21 @@
 <template>
-  <div >
+  <div>
     <!-- first-section -->
     <div class="product-container">
       <div class="picture">
-        <img
-          src="@/assets/images/postcoffee_box.png"
-          alt=""
-          class="image"
-        />
+        <img src="@/assets/images/postcoffee_box.png" alt="" class="image" />
       </div>
       <div class="content">
         <div class="title">{{ title }}</div>
 
         <div class="headline">
-          {{ mainmessage }}
+          すぐにコーヒーライフを始めるための<br />
+          オールインワンボックス<br />
+          診断から好みにあったコーヒーが3種類
         </div>
         <div class="text">
-          {{ submessage }}
+          好みに合わせて、豆の挽き方や頻度、分量、シュガー、ミルク <br />
+          （クリープ）などカスタマイズ！
         </div>
         <div class="feature">
           <div class="item">
@@ -38,7 +37,10 @@
           <div class="includingtax">{{ tax }}</div>
         </div>
         <div class="diagnosis-button">
-          <a>{{ pricediagnosisbutton }} </a>
+          <a
+            >1分であなた好みのコーヒー診断<br />
+            無料でコーヒーを診断
+          </a>
         </div>
       </div>
     </div>
@@ -67,17 +69,15 @@ export default {
   data() {
     return {
       title: "あなた専用のコーヒーボックス",
-      mainmessage: `すぐにコーヒーライフを始めるためのオールインワンボックス
-診断から好みにあったコーヒーが3種類`,
-      submessage: `好みに合わせて、豆の挽き方や頻度、分量、シュガー、ミルク（クリープ）などカスタマイズ！`,
+      mainmessage: ``,
+      submessage: ``,
       firstfeature: "マグとお湯を用意するだけでOK！",
       secondfeature: "縛りなしでスキップも簡単！",
       thirdfeature: "ずっと、全国送料無料！",
       ship: "送料無料",
       price: "¥1,480~",
       tax: "（税込¥1,598~）",
-      pricediagnosisbutton: `1分であなた好みのコーヒー診断
-無料でコーヒーを診断`,
+      pricediagnosisbutton: ``,
       informations: [
         {
           image: require("@/assets/images/icon_feauter1.png"),
@@ -85,28 +85,28 @@ export default {
           title: "Take the Quiz.",
           mainmessage: "コーヒーを診断する",
           submessage:
-            "趣味嗜好に関する簡単な質問に答えましょう。コーヒーの知識がなくても大丈夫。",
+            "趣味嗜好に関する簡単な質問に答え\nましょう。コーヒーの知識が\nなくても大丈夫。",
         },
         {
           image: require("@/assets/images/icon_feauter2.png"),
           title: "Customazing for you.",
           mainmessage: "あなた専用にカスタマイズ",
           submessage:
-            "約15万通りからあなたに合ったコーヒー、淹れ方などを導き出します。",
+            "約15万通りからあなたに\n合ったコーヒー、淹れ方\nなどを導き出します。",
         },
         {
           image: require("@/assets/images/icon_feauter3.png"),
           title: "Get the Coffee Box.",
           mainmessage: "美味しいコーヒーが届く",
           submessage:
-            "あなた専用にカスタマイズされたコーヒーBOXが届きます。コーヒージャーニーの始まりです。",
+            "あなた専用にカスタマイズされた\nコーヒーBOXが届きます。\nコーヒージャーニーの始まりです。",
         },
         {
           image: require("@/assets/images/icon_feauter4.png"),
           title: "Let's give them feedback.",
           mainmessage: "フィードバックしよう",
           submessage:
-            "フィードバックをすることでお届けするオーヒー豆が更に更に好みの味に近づきます。",
+            "フィードバックをすることで\nお届けするオーヒー豆が\n更に更に好みの味に近づきます。",
         },
       ],
     };

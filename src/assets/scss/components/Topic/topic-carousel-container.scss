@@ -1,0 +1,22 @@
+.topic-carousel-container {
+    >.headline {
+        font-size: 35px;
+        font-weight: bold;
+    }
+    >.text {
+        font-size: 18px;
+        font-weight: bold;
+        margin: 1% 0;
+    }
+    >.line {
+        border-right: 1px solid black;
+        width: 50%;
+        height: 50px;
+        margin: 2% 0;
+    }
+}
+
+//vue-carousel固有のクラスのため
+.VueCarousel-pagination {
+    display: none;
+}
