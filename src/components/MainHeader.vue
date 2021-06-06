@@ -3,33 +3,25 @@
     <img src="@/assets/images/postcoffeeheader.jpeg" alt="" class="image" />
     <div class="message">
       <div class="text">
-        {{ submessage }}
+        コーヒー診断であなたにぴったりのコーヒーが毎月届く
       </div>
       <div class="headline">
-        {{ mainmessage }}
+        コーヒーの定期便 <br />
+        パーソナライズコーヒーBOX
       </div>
 
       <div class="button">
-          <button class="diagnosis-button">コーヒー診断をする</button>
+        <button class="diagnosis-button">コーヒー診断をする</button>
       </div>
     </div>
   </div>
 </template>
 
 <script>
-
 export default {
-  components: {
-  },
+  components: {},
   data() {
-    return {
-      submessage: "コーヒー診断であなたにぴったりのコーヒーが毎月届く",
-      mainmessage: `コーヒーの定期便
-パーソナライズコーヒーBOX`,
-    };
+    return {};
   },
 };
 </script>
-
-<style scoped>
-</style>
