@@ -7,8 +7,8 @@
     <About></About>
     <Partner></Partner>
     <Youtube></Youtube>
-    <Price></Price>  
-    <Campaign></Campaign> 
+    <Price></Price>
+    <Campaign></Campaign>
     <Store></Store>
     <Post></Post>
     <Footer></Footer>
@@ -16,7 +16,6 @@
 </template>
 
 <script>
-
 import Header from "./components/Header.vue";
 import MainHeader from "./components/MainHeader.vue";
 import Topic from "./views/Topic.vue";
@@ -27,9 +26,8 @@ import Youtube from "./views/Youtube.vue";
 import Price from "./views/Price.vue";
 import Campaign from "./views/Campaign.vue";
 import Store from "./views/Store.vue";
-import Post from './views/Post.vue';
-import Footer from './components/Footer.vue';
-
+import Post from "./views/Post.vue";
+import Footer from "./components/Footer.vue";
 
 export default {
   name: "App",
@@ -47,14 +45,10 @@ export default {
     Post,
     Footer,
   },
-   data() {
-    return {
-    
-    };
+  data() {
+    return {};
   },
-  mounted(){
-    
-  }
+  mounted() {},
 };
 </script>
 
@@ -63,7 +57,6 @@ export default {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  text-align: center;
   color: #2c3e50;
   /* margin-top: 60px; */
 }
