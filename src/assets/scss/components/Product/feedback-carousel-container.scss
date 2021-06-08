@@ -1,0 +1,20 @@
+.feedback-carousel-container {
+    width: 90%;
+    margin: 5% auto;
+    height: auto;
+    background-color: white;
+    >.title {
+        @import url('https://fonts.googleapis.com/css?family=Noto+Serif+JP');
+        font-family: 'Noto Serif JP', sans-serif;
+        font-weight: bold;
+        font-size: 30px;
+        margin: 3% 0;
+        text-align: center;
+    }
+    //vue-carosel固有のクラス名
+    .VueCarousel-navigation-next,
+    .VueCarousel-navigation-prev {
+        font-size: 35px;
+        font-weight: bold;
+    }
+}

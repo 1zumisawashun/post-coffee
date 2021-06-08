@@ -1,0 +1,38 @@
+.left-image-card-container {
+    width: 70%;
+    margin: 3% auto;
+    display: flex;
+    white-space: pre-wrap;
+    >.picture {
+        width: 45%;
+        margin: 0 auto;
+    }
+    >.info {
+        width: 45%;
+        margin: 3% auto;
+    }
+    >.info>.title {
+        width: 30%;
+        margin: 5% 0;
+        font-size: 13px;
+        border-bottom: 1px solid black;
+    }
+    >.info>.headline {
+        font-size: 25px;
+        font-weight: bold;
+        margin: 5% 0;
+    }
+    >.info>.message {
+        font-size: 15px;
+        margin: 5% 0;
+        font-weight: bold;
+    }
+    >.info>.addition>.number {
+        font-weight: bold;
+        font-size: 80px;
+    }
+    >.info>.addition>.text {
+        font-weight: bold;
+        font-size: 12px;
+    }
+}

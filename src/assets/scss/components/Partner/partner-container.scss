@@ -1,0 +1,27 @@
+.partner-container {
+    color: white;
+    font-weight: bold;
+    background-image: url("~@/assets/images/roaster_bg.jpeg");
+    background-size: cover;
+    //backgroud-image,sizeはセットで使う
+    padding-bottom: 5%;
+    text-align: center;
+    white-space: pre-wrap;
+    >.logo {
+        padding: 3%;
+    }
+    >.logo>.image {
+        width: 10%;
+        object-fit: cover;
+    }
+    >.headline {
+        width: 40%;
+        margin: 1% auto;
+        font-size: 18px;
+    }
+    >.text {
+        width: 50%;
+        margin: 3% auto;
+        font-size: 15px;
+    }
+}
