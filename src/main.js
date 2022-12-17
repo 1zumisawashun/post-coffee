@@ -4,6 +4,7 @@ import VueCarousel from "vue-carousel";
 import VueYoutube from "vue-youtube";
 import PerfectScrollbar from "vue2-perfect-scrollbar";
 import "vue2-perfect-scrollbar/dist/vue2-perfect-scrollbar.css";
+import "@/assets/scss/reset.scss";
 
 Vue.use(PerfectScrollbar);
 Vue.use(VueYoutube);

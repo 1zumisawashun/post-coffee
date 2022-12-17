@@ -7,7 +7,7 @@
     <About></About>
     <Partner></Partner>
     <Youtube></Youtube>
-    <Price></Price>   
+    <Price></Price>
     <Store></Store>
     <Post></Post>
     <Footer></Footer>
@@ -24,9 +24,8 @@ import Partner from "./views/Partner.vue";
 import Youtube from "./views/Youtube.vue";
 import Price from "./views/Price.vue";
 import Store from "./views/Store.vue";
-import Post from './views/Post.vue';
-import Footer from './components/Footer.vue';
-
+import Post from "./views/Post.vue";
+import Footer from "./components/Footer.vue";
 
 export default {
   name: "App",
@@ -41,16 +40,12 @@ export default {
     Price,
     Store,
     Post,
-    Footer
+    Footer,
   },
-   data() {
-    return {
-    
-    };
+  data() {
+    return {};
   },
-  mounted(){
-    
-  }
+  mounted() {},
 };
 </script>
 
@@ -60,7 +55,7 @@ export default {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
-  color: #2c3e50;
+  /* color: #2c3e50; */
   /* margin-top: 60px; */
 }
 </style>
