@@ -2,38 +2,26 @@
   <div class="main-header-container">
     <img src="@/assets/images/postcoffeeheader.jpeg" alt="" class="image" />
     <div class="message">
-      <div class="submessage">
-        {{ submessage }}
+      <div class="text">
+        コーヒー診断であなたにぴったりのコーヒーが毎月届く
       </div>
-      <div class="mainmessage whitespace">
-        {{ mainmessage }}
+      <div class="headline">
+        コーヒーの定期便 <br />
+        パーソナライズコーヒーBOX
       </div>
 
-      <div class="diagnosis-button-wrapper">
-        <div class="diagnosis-button">
-          <DiagnosisButton></DiagnosisButton>
-        </div>
+      <div class="button">
+        <button class="diagnosis-button">コーヒー診断をする</button>
       </div>
     </div>
   </div>
 </template>
 
 <script>
-import "@/assets/scss/main-header-container.scss";
-import DiagnosisButton from "@/components/DiagnosisButton.vue";
 export default {
-  components: {
-    DiagnosisButton,
-  },
+  components: {},
   data() {
-    return {
-      submessage: "コーヒー診断であなたにぴったりのコーヒーが毎月届く",
-      mainmessage: `コーヒーの定期便
-パーソナライズコーヒーBOX`,
-    };
+    return {};
   },
 };
 </script>
-
-<style scoped>
-</style>

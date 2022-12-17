@@ -5,14 +5,13 @@
     </div>
     <div class="info">
       <div class="title">{{ information.title }}</div>
-      <div class="mainmessage">{{ information.mainmessage }}</div>
-      <div class="submessage">{{ information.submessage }}</div>
+      <div class="headline">{{ information.mainmessage }}</div>
+      <div class="text">{{ information.submessage }}</div>
     </div>
   </div>
 </template>
 
 <script>
-import "@/assets/scss/information-block.scss"
 export default {
   props: ["information"],
   mounted() {

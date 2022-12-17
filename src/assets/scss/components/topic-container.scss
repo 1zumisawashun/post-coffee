@@ -1,0 +1,29 @@
+.topic-container {
+  padding-top: 5% ;
+  margin-top: 8%;
+
+>.description{
+  margin: 2.5%;
+}
+>.description > .title {
+  width: 10%;
+  margin: 2% auto;
+  font-size: 15px;
+  border-bottom: solid 1px black; 
+}
+> .description > .headline {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+ >.media {
+  width: 80%;
+  margin: 0 auto;
+  padding: 3% 0;
+  display: flex;
+  flex-wrap: wrap;
+}
+ >.media > .item {
+  margin: 0.5%;
+}
+}

@@ -8,6 +8,7 @@
     <Partner></Partner>
     <Youtube></Youtube>
     <Price></Price>
+    <Campaign></Campaign>
     <Store></Store>
     <Post></Post>
     <Footer></Footer>
@@ -23,6 +24,7 @@ import About from "./views/About.vue";
 import Partner from "./views/Partner.vue";
 import Youtube from "./views/Youtube.vue";
 import Price from "./views/Price.vue";
+import Campaign from "./views/Campaign.vue";
 import Store from "./views/Store.vue";
 import Post from "./views/Post.vue";
 import Footer from "./components/Footer.vue";
@@ -38,6 +40,7 @@ export default {
     Partner,
     Youtube,
     Price,
+    Campaign,
     Store,
     Post,
     Footer,
@@ -54,8 +57,7 @@ export default {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  /* color: #2c3e50; */
+  color: #2c3e50;
   /* margin-top: 60px; */
 }
 </style>

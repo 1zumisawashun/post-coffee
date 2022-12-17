@@ -1,0 +1,48 @@
+.price-card-block {
+  width: 90%;
+  margin: 0% auto;
+  background-color: white;
+  padding-bottom: 10%;
+
+  >.content > .info {
+    width: 60%;
+    margin: 0 auto;
+    padding: 5% 0 3%;
+  }
+
+  >.content > .info > .title {
+    width: 65%;
+    margin: 0 auto;
+    font-size: 12px;
+    padding-bottom:1.5%;
+    border-bottom: solid 1px black;
+  }
+  
+  >.content > .info > .message {
+    margin: 8% auto;
+    font-size: 16px;
+    font-weight: bold;
+  }
+
+  >.customize {
+    width: 50%;
+    margin: 7% auto;
+    border: 1px solid black;
+    padding: 3%;
+  }
+
+  >.customize > .menu > .item {
+    font-size: 12px;
+    font-weight: bold;
+    margin: 5% 0;
+  }
+  >.customize > .price > .excludingtax {
+    font-weight: bold;
+    font-size: 30px;
+  }
+
+  >.customize > .price > .includingtax {
+    font-weight: bold;
+    font-size: 15px;
+  }
+}

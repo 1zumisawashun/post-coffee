@@ -1,27 +1,24 @@
 .partner-container{
-  width: 100%;
-  height: auto;
   color: white;
   font-weight: bold;
   background-image: url("~@/assets/images/roaster_bg.jpeg");
   /* relativeを指定しないと表示されない */
   position: relative;
-  padding: 0 0 5% 0 ;
+  padding-bottom: 5% ;
  
- .logo{
+ >.logo{
     padding: 3%;
   }
-   .logo > .image{
-    width: 200px;
-    height: auto;
+  > .logo > .image{
+    width: 10%;
     object-fit: cover;
   }
-  .mainmessage{
+  >.headline{
     width: 40%;
     margin: 1% auto;
     font-size: 15px;
   }
-   .submessage{
+  > .text{
     width: 50%;
     margin: 3% auto;
     font-size: 13px;

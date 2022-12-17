@@ -30,7 +30,7 @@
 </template>
 
 <script>
-import "@/assets/scss/price-card-block.scss";
+
 export default {
   data() {
     return {};
@@ -38,6 +38,3 @@ export default {
   props: ["price"],
 };
 </script>
-
-<style scoped>
-</style>

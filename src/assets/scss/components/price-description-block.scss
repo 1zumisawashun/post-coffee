@@ -1,17 +1,17 @@
 // discription
-.price-description-block {
-  padding: 5% 0 3%;
+.description-block {
+  padding: 3%;
 
-  .info > .title {
+  >.info > .title {
     font-size: 12px;
     font-weight: bold;
     width: 15%;
     margin: 0 auto 1%;
-    padding: 0 0 0.5% ;
+    padding-bottom:0.5% ;
     border-bottom: 1px solid black;
   }
 
-  .info >.message {
+  >.info >.message {
     font-weight: bold;
     font-size: 25px;
   }

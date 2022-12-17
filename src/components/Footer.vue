@@ -8,13 +8,13 @@
 
       <div class="sns">
         <div class="icon">
-          <img src="@/assets/images/sns_instagram.png" alt="instagram" />
+          <img src="@/assets/images/sns_instagram.png" alt="instagram"  class="image"/>
         </div>
         <div class="icon">
-          <img src="@/assets/images/sns_facebook.png" alt="facebook" />
+          <img src="@/assets/images/sns_facebook.png" alt="facebook"  class="image"/>
         </div>
         <div class="icon">
-          <img src="@/assets/images/sns_twitter.png" alt="twitter" />
+          <img src="@/assets/images/sns_twitter.png" alt="twitter"  class="image" />
         </div>
       </div>
 
@@ -36,11 +36,5 @@
 </template>
 
 <script>
-import "@/assets/scss/footer-container.scss";
-import "@/assets/scss/footer-block.scss";
 export default {};
 </script>
-
-<style lang="scss" scoped>
-
-</style>

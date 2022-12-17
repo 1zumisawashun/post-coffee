@@ -1,0 +1,29 @@
+.information-block {
+    display: flex;
+    >.icon {
+        width: 20%;
+        margin: auto 0;
+    }
+    >.icon>.image {
+        width: 40px;
+        margin: 0 auto;
+    }
+    >.info {
+        width: 80%;
+        //全体にtext-align centerをかけているため
+        text-align: left;
+    }
+    >.info>.title {
+        font-size: 12px;
+        padding: 3%;
+    }
+    >.info>.headline {
+        font-size: 16px;
+        font-weight: bold;
+        padding: 1%;
+    }
+    >.info>.text {
+        font-size: 12px;
+        padding: 2%;
+    }
+}
